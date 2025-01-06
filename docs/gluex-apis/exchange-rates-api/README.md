@@ -1,7 +1,5 @@
 # Exchange Rates API
 
-<!-- ## description: Integrate our Exchange Rates API directly into your app. -->
-
 The **Gluex Exchange Rates API** provides an easy-to-use and highly scalable solution for accessing **on-chain**
 exchange rates between any two token pairs across multiple supported blockchains. Whether you're building a DeFi
 application, wallet, trading platform, or any blockchain-powered tool, this API ensures you can retrieve real-time,
@@ -34,7 +32,7 @@ custom rate limits.&#x20;
 
 import { SwaggerDoc } from '@site/src/components/Swagger';
 
-<SwaggerDoc url="https://raw.githubusercontent.com/gluexprotocol/gluex-openapis/refs/heads/main/exchange-rates-api/openapi.json" />
+<SwaggerDoc url="https://raw.githubusercontent.com/gluexprotocol/gluex-openapis/main/exchange-rates-api/openapi.json" />
 
 <!-- <iframe
   src="https://gluexprotocol.github.io/exchange-rates-api-swagger/#/default/getChains"
