@@ -1,0 +1,41 @@
+@media (min-width: 997px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: var(--ifm-navbar-height);
+    width: var(--doc-sidebar-width);
+  }
+
+  .sidebar * {
+    border: none !important;
+  }
+
+  .sidebarWithHideableNavbar {
+    padding-top: 0;
+  }
+
+  .sidebarHidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .sidebarLogo {
+    color: inherit !important;
+    display: flex !important;
+    margin: 16px auto;
+    overflow: hidden;
+    text-decoration: none !important;
+  }
+
+  .sidebarLogo img {
+    height: 44px;
+    width: 180px;
+
+    /* height: 2rem; */
+  }
+}
+
+.sidebarLogo {
+  display: none;
+}

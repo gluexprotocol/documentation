@@ -1,0 +1,71 @@
+.step_container {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.step_container details {
+  background: var(--ifm-code-background);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.heading:before {
+  background: var(--secondary-blue-400);
+  border-radius: 50%;
+  content: attr(data-step);
+  display: grid;
+  margin-right: 8px;
+  min-height: 32px;
+  min-width: 32px;
+  place-items: center;
+}
+
+.heading h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.content {
+  display: grid;
+  grid-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-gap: 50px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.description {
+}
+
+.description p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-top: 8px;
+}
+
+.description p pre {
+  display: inline-block;
+}
+
+.description li {
+  margin-bottom: 8px;
+}
+
+.code {
+}
+
+.main-block pre {
+  margin-top: 0;
+}
