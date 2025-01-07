@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://docs.gluex.xyz',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
 
   organizationName: 'gluexprotocol',
   projectName: 'documentation',
@@ -85,8 +85,8 @@ const config: Config = {
       hideOnScroll: true,
       logo: {
         alt: 'GlueX Logo',
-        src: 'img/GlueX_logotipo_dark.png',
-        srcDark: '/img/GlueX_logotipo_light.png',
+        src: 'img/GlueX_logotipo_dark.svg',
+        srcDark: '/img/GlueX_logotipo_light.svg',
         href: '/',
       },
       items: [

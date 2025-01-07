@@ -1,7 +1,13 @@
-# Overview
+---
+id: gluex-overview
+title: Overview
+sidebar_label: label-icon-gluex-apis Overview
+---
 
-<img src="img/GlueX_logotipo_light.png" alt="GlueX Logo"
-style={{ width: "100%", background: "#010001", borderRadius: 0, margin: "12px 0 24px 0" }} />
+<head>
+</head>
+
+# Overview
 
 GlueX provides a unified suite of on-chain and off-chain services designed to abstract the complexities of decentralized
 finance (DeFi). It standardizes the integration of different blockchains, exchange venues, and liquidity providers into
