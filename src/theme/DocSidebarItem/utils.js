@@ -33,24 +33,29 @@ const addIconsToLabel = (label, className) => {
     const iconName = labelParts[0].replace('label-icon-', '');
     label = labelParts.slice(1).join(' ');
     switch (iconName) {
-      case 'gluex-apis':
-        icons = <SDK />;
+      case 'overview':
+        icons = <Limit_Order_Book />;
         break;
     }
   }
 
   switch (className) {
     case 'label-gluex-apis':
-    case 'label-gluex-apis-bridge':
-    case 'label-gluex-apis-exchange_rate':
-    case 'label-gluex-apis-router':
-    case 'label-gluex-apis-solve':
-    case 'label-gluex-apis-bridge':
-    case 'label-gluex-intents':
-    case 'label-gluex-protocol':
-    case 'label-gluex-protocol-modules':
       icons = <SDK />;
       break;
+    // case 'label-gluex-apis-bridge':
+    case 'label-gluex-apis-exchange_rate':
+      icons = <All_Round />;
+      break;
+    case 'label-gluex-apis-router':
+      icons = <No_Collateral />;
+      break;
+    case 'label-gluex-apis-solve':
+      icons = <Ownable />;
+      break;
+    // case 'label-gluex-intents':
+    // case 'label-gluex-protocol':
+    // case 'label-gluex-protocol-modules':
   }
 
   return (

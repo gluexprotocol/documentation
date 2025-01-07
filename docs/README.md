@@ -1,7 +1,7 @@
 ---
 id: gluex-overview
 title: Overview
-sidebar_label: label-icon-gluex-apis Overview
+sidebar_label: label-icon-overview Overview
 ---
 
 <head>
