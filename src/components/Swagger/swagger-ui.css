@@ -9522,8 +9522,8 @@
 }
 
 .swagger-ui .opblock.opblock-post {
-  /* background: rgba(73, 204, 144, 0.1); */
-  background: #202020;
+  background: rgba(73, 204, 144, 0.1);
+  /* background: #202020; */
   border-color: #49cc90;
 }
 
@@ -9540,8 +9540,8 @@
 }
 
 .swagger-ui .opblock.opblock-put {
-  /* background: rgba(252, 161, 48, 0.1); */
-  background: #202020;
+  background: rgba(252, 161, 48, 0.1);
+  /* background: #202020; */
   border-color: #fca130;
 }
 
@@ -9558,8 +9558,8 @@
 }
 
 .swagger-ui .opblock.opblock-delete {
-  /* background: rgba(249, 62, 62, 0.1); */
-  background: #202020;
+  background: rgba(249, 62, 62, 0.1);
+  /* background: #202020; */
   border-color: #f93e3e;
 }
 
@@ -9576,8 +9576,8 @@
 }
 
 .swagger-ui .opblock.opblock-get {
-  /* background: rgba(97, 175, 254, 0.1); */
-  background: #202020;
+  background: rgba(97, 175, 254, 0.1);
+  /* background: #202020; */
   border-color: #61affe;
 }
 
@@ -9774,7 +9774,7 @@
 }
 
 .swagger-ui .execute-wrapper {
-  padding: 0 20px;
+  padding: 0 20px 12px 20px;
   text-align: right;
 }
 
