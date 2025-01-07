@@ -45,7 +45,7 @@ else:
     {
       "id": 1,
       "name": "Ethereum",
-      "blockchain_id": "eth"
+      "blockchain_id": "ethereum"
     },
     {
       "id": 56,
@@ -55,7 +55,7 @@ else:
     {
       "id": 137,
       "name": "Polygon",
-      "blockchain_id": "pol"
+      "blockchain_id": "polygon"
     }
   ]
 }
