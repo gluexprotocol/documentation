@@ -19,6 +19,7 @@ import Upgradeable from '@site/static/labels/Upgradeable.svg';
 import Limit_Order_Book from '@site/static/labels/Limit_Order_Book.svg';
 import Zero_Risk from '@site/static/labels/Zero_Risk.svg';
 import Liquidity_Pools from '@site/static/labels/Liquidity_Pools.svg';
+import GlueX_Cross from '@site/static/labels/GlueX_Cross.svg';
 
 const addIconsToLabel = (label, className) => {
   let icons;
@@ -53,14 +54,17 @@ const addIconsToLabel = (label, className) => {
     case 'label-gluex-apis-solve':
       icons = <Ownable />;
       break;
+    case 'label-gluex-protocol':
+      icons = <GlueX_Cross />;
+      break;
     // case 'label-gluex-intents':
-    // case 'label-gluex-protocol':
     // case 'label-gluex-protocol-modules':
   }
 
   return (
     <div className="flex items-center">
-      {icons} {label}
+      <span className='scale-[1.2]'>{icons}</span>
+      {label}
     </div>
   );
 };

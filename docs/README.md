@@ -5,6 +5,10 @@ sidebar_label: label-icon-overview Overview
 ---
 
 <head>
+    <!-- <meta name="description" content="description" />
+    <meta key="og_title" property="og:title" content="Overview | GlueX Protocol" />
+    <meta key="og_description" property="og:description" content="" />
+    <meta key="og_image" property="og:image" content="" /> -->
 </head>
 
 # Overview
