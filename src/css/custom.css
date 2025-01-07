@@ -69,8 +69,16 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: 'Aux_Mono';
+  src: url('/fonts/Aux_Mono.otf') format('otf');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
 * {
-  font-family: 'Aeonik', 'Roboto', sans-serif;
+  font-family: 'Aux_Mono', 'Aeonik', 'Roboto', sans-serif !important;
 }
 
 .markdown h1 {
