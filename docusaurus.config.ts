@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://docs.gluex.xyz',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
 
   organizationName: 'gluexprotocol',
   projectName: 'documentation',

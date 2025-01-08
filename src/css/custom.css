@@ -77,8 +77,41 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-BookItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic oblique;
+}
+@font-face {
+  font-family: 'ABCFavorit';
+  src: url('/fonts/ABCFavorit-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
 * {
-  font-family: 'Aux_Mono', 'Aeonik', 'Roboto', sans-serif !important;
+  font-family: 'ABCFavorit', 'Aux_Mono', 'Aeonik', 'Roboto', sans-serif !important;
+  word-spacing: 0.1ch;
 }
 
 .markdown h1 {
