@@ -1,19 +1,19 @@
 # How to request exchange rates
 
 
-The `/exchange-rate` endpoint allows you to retrieve the exchange rates between token pairs on a specified blockchain.
+The Default (`/`) endpoint allows you to retrieve the exchange rates between token pairs on a specified blockchain.
 
 ---
 
 ### **Endpoint**
 
-`POST /exchange-rate`
+`POST /`
 
 ---
 
 ### **Base URL**
 
-https://exchange-rates.gluex.xyz/
+https://exchange-rates.gluex.xyz
 
 ---
 
@@ -22,19 +22,21 @@ https://exchange-rates.gluex.xyz/
 To request exchange rates, you need to provide a JSON body that includes the token pairs and the blockchain ID:
 
 ```json
-{
-    "token_pairs": [
-        {
-            "domestic_token": "tokenA-address",
-            "foreign_token": null
-        },
-        {
-            "domestic_token": "tokenB-address",
-            "foreign_token": "tokenC-address"
-        }
-    ],
-    "blockchain_id": "blockchain"
-}
+[
+    {
+        "domestic_token": "tokenA-address",
+        "foreign_token": null,
+        "domestic_blockchain": "blockchain_id_1",
+        "foreign_blockchain": "blockchain_id_1",
+    },
+    {
+        "domestic_token": "tokenB-address",
+        "foreign_token": "tokenC-address",
+        "domestic_blockchain": "blockchain_id_2",
+        "foreign_blockchain": "blockchain_id_2",
+    }
+]
+
 ```
 &#x20;
 **Parameters**:
@@ -48,20 +50,23 @@ To request exchange rates, you need to provide a JSON body that includes the tok
 The response will include a list of exchange rates for the requested token pairs on the specified blockchain.
 
 ```json
-{
-    "exchange_rates": [
-        {
-            "domestic_token": "tokenA-address",
-            "price": 0.00010741495276069063,
-            "foreign_token": "blockchain-native-currency-address",
-        },
-        {
-            "domestic_token": "tokenB-address",
-            "price": 1.0013751780636744e-12,
-            "foreign_token": "tokenC-address",
-        }
-    ]
-}
+[
+    {
+        "domestic_token": "tokenA-address",
+        "price": 0.00010741495276069063,
+        "foreign_token": "blockchain_id_1_native-currency-address",
+        "domestic_blockchain": "blockchain_id_1",
+        "foreign_blockchain": "blockchain_id_1",
+    },
+    {
+        "domestic_token": "tokenB-address",
+        "price": 1.0013751780636744e-12,
+        "foreign_token": "tokenC-address",
+        "domestic_blockchain": "blockchain_id_2",
+        "foreign_blockchain": "blockchain_id_2",
+    }
+]
+
 ```
 
 #### Response Parameters:
@@ -86,21 +91,22 @@ Here’s how you can make a request to fetch exchange rates:
 
 #### **Using `curl`**  
 ```bash
-curl -X POST "https://exchange-rates.gluex.xyz/exchange-rate" \
+curl -X POST "https://exchange-rates.gluex.xyz" \
      -H "Content-Type: application/json" \
-     -d '{
-            "token_pairs": [
-                {
-                    "domestic_token": "tokenA-address",
-                    "foreign_token": null
-                },
-                {
-                    "domestic_token": "tokenB-address",
-                    "foreign_token": "tokenC-address"
-                }
-            ],
-            "blockchain_id": "ethereum"
-        }'
+     -d '[
+    {
+        "domestic_token": "tokenA-address",
+        "foreign_token": null,
+        "domestic_blockchain": "blockchain_id_1",
+        "foreign_blockchain": "blockchain_id_1",
+    },
+    {
+        "domestic_token": "tokenB-address",
+        "foreign_token": "tokenC-address",
+        "domestic_blockchain": "blockchain_id_2",
+        "foreign_blockchain": "blockchain_id_2",
+    }
+]'
 
 ```
 
@@ -111,22 +117,23 @@ import requests
 import requests
 import json
 
-url = "https://exchange-rates.gluex.xyz/exchange-rate"
+url = "https://exchange-rates.gluex.xyz"
 headers = {"Content-Type": "application/json"}
 
-data = {
-    "token_pairs": [
-        {
-            "domestic_token": "tokenA-address",
-            "foreign_token": None
-        },
-        {
-            "domestic_token": "tokenB-address",
-            "foreign_token": "tokenC-address"
-        }
-    ],
-    "blockchain_id": "ethereum"
-}
+data = [
+    {
+        "domestic_token": "tokenA-address",
+        "foreign_token": null,
+        "domestic_blockchain": "blockchain_id_1",
+        "foreign_blockchain": "blockchain_id_1",
+    },
+    {
+        "domestic_token": "tokenB-address",
+        "foreign_token": "tokenC-address",
+        "domestic_blockchain": "blockchain_id_2",
+        "foreign_blockchain": "blockchain_id_2",
+    }
+]
 
 response = requests.post(url, headers=headers, data=json.dumps(data))
 
