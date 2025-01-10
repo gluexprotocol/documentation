@@ -82,7 +82,7 @@ const config: Config = {
     },
     navbar: {
       title: '',
-      hideOnScroll: true,
+      hideOnScroll: false,
       logo: {
         alt: 'GlueX Logo',
         src: 'img/GlueX_logotipo_dark.svg',
@@ -103,9 +103,13 @@ const config: Config = {
         },
       ],
     },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 3,
+    },
     prism: {
       darkTheme: prismThemes.duotoneDark,
-      additionalLanguages: ['json', 'typescript',  'python', 'rust', 'go', 'bash', 'yaml'],
+      additionalLanguages: ['json', 'typescript', 'python', 'rust', 'go', 'bash', 'yaml'],
     },
   } satisfies Preset.ThemeConfig,
 

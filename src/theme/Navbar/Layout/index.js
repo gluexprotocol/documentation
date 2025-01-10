@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { useThemeConfig } from '@docusaurus/theme-common';
-import { useHideableNavbar, useNavbarMobileSidebar } from '@docusaurus/theme-common/internal';
+import { useNavbarMobileSidebar } from '@docusaurus/theme-common/internal';
 import { translate } from '@docusaurus/Translate';
 import NavbarMobileSidebar from '@theme/Navbar/MobileSidebar';
 
@@ -16,11 +16,11 @@ const NavbarLayout = ({ children }) => {
     navbar: { hideOnScroll, style },
   } = useThemeConfig();
   const mobileSidebar = useNavbarMobileSidebar();
-  const { navbarRef, isNavbarVisible } = useHideableNavbar(hideOnScroll);
+  // const { navbarRef, isNavbarVisible } = useHideableNavbar(hideOnScroll);
 
   return (
     <nav
-      ref={navbarRef}
+      // ref={navbarRef}
       aria-label={translate({
         id: 'theme.NavBar.navAriaLabel',
         message: 'Main',
@@ -29,7 +29,7 @@ const NavbarLayout = ({ children }) => {
       className={clsx(
         'navbar',
         'navbar--fixed-top',
-        // hideOnScroll && [styles.navbarHideable, !isNavbarVisible && styles.navbarHidden],
+        hideOnScroll && [styles.navbarHideable, !isNavbarVisible && styles.navbarHidden],
         {
           'navbar--dark': style === 'dark',
           'navbar--primary': style === 'primary',

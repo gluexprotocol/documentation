@@ -9,7 +9,7 @@ const LINK_CLASS_NAME = 'table-of-contents__link toc-highlight';
 const LINK_ACTIVE_CLASS_NAME = 'table-of-contents__link--active';
 
 const TOC = ({ className, ...props }) => {
-  const { metadata } = useDoc();
+  // const { metadata } = useDoc()
 
   return (
     <div className={clsx(styles.tableOfContents, 'thin-scrollbar', className)}>

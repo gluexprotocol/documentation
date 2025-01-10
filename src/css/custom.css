@@ -103,6 +103,7 @@
   font-weight: bold;
   font-style: italic oblique;
 }
+
 @font-face {
   font-family: 'ABCFavorit';
   src: url('/fonts/ABCFavorit-Bold.woff2') format('woff2');
@@ -203,6 +204,7 @@ textarea {
 .heightAuto {
   height: auto;
 }
+
 [data-theme='dark'] .kitchen-image-container {
   border: 1px solid #2d3956;
   background-color: #1e2538;
@@ -403,7 +405,7 @@ ol li {
   /* background-color: var(--sidebar-bg-color); */
   background: black;
   border-bottom: 2px solid #5a5a5a;
-  padding: 16px 48px;
+  padding: 22px 48px;
   height: auto;
 }
 
@@ -1168,7 +1170,7 @@ table td {
 /* Table of Content */
 .table-of-contents.table-of-contents__left-border {
   border-left: 0;
-  min-height: calc(100vh - (var(--ifm-navbar-height)) - 240px);
+  /* min-height: calc(100vh - (var(--ifm-navbar-height)) - 240px); */
   overflow-x: hidden;
 }
 .table-of-contents li {
@@ -1206,17 +1208,25 @@ table td {
   @apply my-6 ml-0;
 }
 
-.table-of-contents .table-of-contents__link {
+[data-theme='dark'] .table-of-contents .table-of-contents__link {
   border-left: 0.125rem solid transparent;
   @apply text-sm font-medium;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
 }
 
-.table-of-contents .table-of-contents__link--active {
-  border-left: 0.125rem solid var(--secondary-blue-400);
+[data-theme='dark'] .table-of-contents .table-of-contents__link strong {
+  color: #fafafa96;
+}
+
+[data-theme='dark'] .table-of-contents .table-of-contents__link--active {
+  border-left: 0.125rem solid var(--gluex-green);
   margin-left: 0rem;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   @apply font-semibold;
+}
+
+[data-theme='dark'] .table-of-contents .table-of-contents__link--active strong {
+  color: white;
 }
 
 /* Table of Content */
@@ -1725,8 +1735,8 @@ p code {
 
 @media (min-width: 997px) and (max-width: 1327px) {
   .container > div > div:first-child {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 
   .card-wrapper {
@@ -1869,4 +1879,9 @@ ol {
 
 .theme-doc-sidebar-container {
   background-color: var(--sidebar-bg-color);
+}
+
+/* Table of Content */
+[data-theme='dark'] .tableOfContents_src-theme-TOC-styles-module {
+  border-left: 0 !important;
 }
