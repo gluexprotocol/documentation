@@ -4,18 +4,18 @@ The `/chains` endpoint allows you to retrieve a list of all blockchain networks 
 
 ---
 
-### **Endpoint**
+## **Endpoint**
 
 `GET /chains`
 
 ---
 
-### **Base URL**
+## **Base URL**
 https://exchange-rates.gluex.xyz/chains
 
 ---
 
-### **Example Request**
+## **Example Request**
 
 Here’s how you can make a simple request to fetch the supported chains:
 
@@ -38,7 +38,7 @@ else:
     print(f"Error: {response.status_code}")
 ```
 
-#### **Response Example**  
+### **Response Example**  
 ```json
 {
   "chains": [

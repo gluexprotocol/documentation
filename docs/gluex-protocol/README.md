@@ -3,7 +3,9 @@
 GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators, and
 liquidity providers for deploying high-performance, universal smart order routing algorithms.
 
-### How GlueX Protocol Works?
+---
+
+## How GlueX Protocol Works?
 
 At the core of GlueX is the concept of "**GlueX Modules**", which act as the essential building blocks for integrating
 various components needed to interact with decetralized financial applications. These modules are continuously developed
@@ -24,7 +26,9 @@ Once completed, these modules are compiled into comprehensive SDKs that power a 
 Exchange Rates, Quote, Solve, and Bridge APIs. This modular architecture allows GlueX to adapt quickly to the demands of
 an evolving blockchain ecosystem while maintaining a focus on delivering reliable and efficient services.
 
-### Handling Execution Requests in GlueX
+---
+
+## Handling Execution Requests in GlueX
 
 Execution requests to GlueX services, such as Quote, Solve, or Bridge APIs, are processed through a competitive network
 of optimizers. These optimizers leverage proprietary smart order routing algorithms, supported by the GlueX Optimize
@@ -36,7 +40,9 @@ speed, precision, and algorithmic innovation to gain an advantage. By fostering 
 drives performance improvements and provides MEV protection guarantees. Users benefit from fast, accurate, and optimal
 execution of their transactions, even in the context of high-throughput blockchain environments.
 
-### Mitigating Maximum Extractable Value (MEV)
+---
+
+## Mitigating Maximum Extractable Value (MEV)
 
 Maximum Extractable Value (MEV) represents the portion of a transaction’s value that external parties can exploit due to
 inefficiencies in execution. GlueX Protocol addresses this issue by targeting three critical areas: liquidity access,

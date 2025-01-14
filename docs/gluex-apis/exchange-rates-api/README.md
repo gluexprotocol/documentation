@@ -5,6 +5,8 @@ exchange rates between any two token pairs across multiple supported blockchains
 application, wallet, trading platform, or any blockchain-powered tool, this API ensures you can retrieve real-time,
 accurate exchange rate data effortlessly.
 
+---
+
 ## Key Features
 
 The main key characteristics of GlueX Exchange Rates API are
@@ -16,7 +18,9 @@ The main key characteristics of GlueX Exchange Rates API are
 - Average API request round trip of 500ms.
 - Specialized Support for Unique Tokens.
 
-### Using the API
+---
+
+## Using the API
 
 The API doesn't require any form of authorization and can easily be accessed via
 <a href="https://exchange-rates.gluex.xyz">exchange rates url</a> . However, optional API keys will give you access to

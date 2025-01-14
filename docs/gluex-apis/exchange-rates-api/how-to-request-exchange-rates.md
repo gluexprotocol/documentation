@@ -5,19 +5,19 @@ The Default (`/`) endpoint allows you to retrieve the exchange rates between tok
 
 ---
 
-### **Endpoint**
+## **Endpoint**
 
 `POST /`
 
 ---
 
-### **Base URL**
+## **Base URL**
 
 https://exchange-rates.gluex.xyz
 
 ---
 
-### **Request Body Format**
+## **Request Body Format**
 
 To request exchange rates, you need to provide a JSON body that includes the token pairs and the blockchain ID:
 
@@ -46,7 +46,7 @@ To request exchange rates, you need to provide a JSON body that includes the tok
 
 ---
 
-### **Response Format**
+## **Response Format**
 The response will include a list of exchange rates for the requested token pairs on the specified blockchain.
 
 ```json

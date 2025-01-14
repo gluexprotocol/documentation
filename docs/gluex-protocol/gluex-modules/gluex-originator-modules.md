@@ -10,6 +10,8 @@ a unified, protocol-agnostic approach to order processing within GlueX.
 The GlueX Originator Module maintains metadata related to settlement protocols, manages inventories needed for
 settlements, and stores settlement-specific information essential for executing swaps on-chain.
 
+---
+
 ### Originator Modules in the GlueX-modules ecosystem:
 
 <div align="center">
@@ -44,6 +46,8 @@ settlements, and stores settlement-specific information essential for executing 
 2. **Solo-Chain Intent Module:**
    - Manages interactions limited to a single blockchain.
    - Simplifies execution and state management for native transactions, token swaps, or other on-chain intents.
+
+---
 
 ### Integrating an originator module to GlueX Protocol
 

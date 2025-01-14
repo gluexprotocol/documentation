@@ -5,6 +5,8 @@ a modular, scalable, and interoperable framework. Whether you're a DApp develope
 provider or a liquidity provider, GlueX simplifies complex integrations and unlocks powerful capabilities to expand your
 ecosystem.
 
+---
+
 ## What GlueX Brings to the Table:
 
 <div align="center">
@@ -13,6 +15,8 @@ ecosystem.
         <figcaption></figcaption>
     </figure>
 </div>
+
+---
 
 ### 1. Simplified Integration and Development
 
@@ -29,6 +33,8 @@ building innovative solutions.
 - **Low Maintenance Overhead**: GlueX handles updates for supported protocols and blockchains, minimizing the need for
   ongoing maintenance.
 
+---
+
 ### 2. Interoperability and Scalability
 
 GlueX ensures seamless communication across diverse protocols and blockchains while enabling projects to scale
@@ -43,6 +49,8 @@ effortlessly.
 - **Support for Ecosystem Growth**: Applications built with GlueX can plug into an expanding ecosystem, keeping pace
   with emerging trends in decentralized finance.
 
+---
+
 ### 3. Optimized Performance and Efficiency
 
 GlueX ensures every transaction is executed efficiently, balancing cost-effectiveness with high performance.
@@ -51,6 +59,8 @@ GlueX ensures every transaction is executed efficiently, balancing cost-effectiv
   transactions.
 - **Built-In Advanced Logic**: Complex trade scenarios, such as routing, multi-order execution, and cross-chain swaps,
   are handled seamlessly without additional development.
+
+---
 
 ### 4. Security and Reliability
 

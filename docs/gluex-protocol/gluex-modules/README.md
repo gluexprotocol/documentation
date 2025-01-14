@@ -16,11 +16,15 @@ developments. All this while simplifying the development process and improving p
     </figcaption>
 </figure>
 
+---
+
 ## The GlueX Workflow: From Intent to Settlement
 
 In the GlueX ecosystem, a entity’s intent—such as executing a swap or any other financial transaction—flows seamlessly
 through four core modules. Each module plays a critical role in ensuring the entire process is executed efficiently and
 securely. The following section illustrates how these modules work together to fulfill the entity's request:
+
+---
 
 ### Originator Module:
 
@@ -28,6 +32,8 @@ The process begins when the Originator Module receives an intent from an entity'
 settlement protocol by collecting all the necessary details, such as the tokens to be swapped, the source and
 destination blockchains, and protocol-specific metadata. It acts as the gateway for the entity’s request into the GlueX
 ecosystem, converting it into a standardized format that can be processed by the subsequent modules.
+
+---
 
 ### Intent Module:
 
@@ -37,12 +43,16 @@ modules, irrespective of the originating protocol. The Intent Module is responsi
 logic, such as routing, multiple order types, and cross-chain transactions, are handled seamlessly while preserving the
 entity’s original intent across all steps.
 
+---
+
 ### Blockchain Module:
 
 The Blockchain Module is where GlueX adapts to the specifics of different blockchain environments. It abstracts the
 complexities of interacting with various blockchains, providing a unified interface for all supported networks. It
 handles the complexities of each blockchain’s metadata, native tokens, operational nuances, and transaction
 requirements, ensuring seamless compatibility across multiple networks.
+
+---
 
 ### Liquidity Module:
 
