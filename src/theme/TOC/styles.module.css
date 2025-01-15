@@ -2,7 +2,7 @@
   height: calc(100vh - var(--ifm-navbar-height) + 80px);
   position: sticky;
   top: calc(var(--ifm-navbar-height));
-  border-left: 1px solid var(--primary-neutral-200);
+  border-left: 0;
   overflow-y: auto;
 }
 
@@ -17,5 +17,5 @@
 }
 
 [data-theme='dark'] .tableOfContents {
-  border-left: 1px solid var(--header-border-bottom);
+  border-left: 0;
 }

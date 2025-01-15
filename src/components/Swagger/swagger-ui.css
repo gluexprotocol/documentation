@@ -9787,7 +9787,7 @@
 }
 
 .swagger-ui .execute-wrapper {
-  padding: 0 20px 12px 20px;
+  padding: 12px 20px 12px 20px;
   text-align: right;
 }
 
@@ -11474,3 +11474,13 @@
 }
 
 /*# sourceMappingURL=swagger-ui.css.map*/
+
+.swagger-ui .col_header {
+  border-bottom: 1px solid #2e2e2e55;
+}
+
+.swagger-ui table tbody tr td {
+  /* border-left: 1px solid #2e2e2e55; */
+  border-bottom: 1px solid #2e2e2e55;
+  border-right: 1px solid #2e2e2e55;
+}
