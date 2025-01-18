@@ -21,6 +21,5 @@ Whether you’re a developer building the next-generation DeFi app, a team optim
 ## Get Started  
 Check out our guides, examples, and API references to start building with GlueX today. Together, we can transform DeFi into a seamless, accessible ecosystem for everyone.  
 
-👉 **Explore the Docs:** [Get Started](https://docs.gluex.xyz/gluex-apis/)  
 👉 **Get all the support you need:** [GlueX Telegram Community](https://t.me/GlueXCommunity)  
 
