@@ -1904,3 +1904,22 @@ ol {
 .parameters-container .opblock-description-wrapper:has(p:only-child) {
   display: none;
 }
+
+/* External Links */
+.sidebar-external-link a.menu__link div:after {
+  content: '';
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  mask-image: url('https://ka-p.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-right-from-square.svg?v=2&token=a463935e93');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: currentColor;
+  margin-left: 0.5em;
+  transition: opacity 0.3s;
+  opacity: 0.4;
+}
+
+.sidebar-external-link a.menu__link div:after:hover {
+  opacity: 1;
+}

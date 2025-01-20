@@ -2,5 +2,5 @@
     "label": "GlueX Protocol",
     "className": "label-gluex-protocol",
     "collapsible": true,
-    "collapsed": true
+    "collapsed": false
 }

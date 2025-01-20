@@ -57,13 +57,16 @@ const addIconsToLabel = (label, className) => {
     case 'label-gluex-protocol':
       icons = <GlueX_Cross />;
       break;
+    case 'label-gluex-powerful':
+      icons = <Powerful />;
+      break;
     // case 'label-gluex-intents':
     // case 'label-gluex-protocol-modules':
   }
 
   return (
     <div className="flex items-center">
-      <span className='scale-[1.2]'>{icons}</span>
+      <span className="scale-[1.2]">{icons}</span>
       {label}
     </div>
   );
