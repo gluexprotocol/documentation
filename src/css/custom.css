@@ -899,7 +899,8 @@ div:has(> .DocSearch.DocSearch-Button) {
   row-gap: 0.25rem;
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
-  padding-left: 0.75rem;
+  /* padding-left: 0.75rem; */
+  padding-left: 1rem;
 }
 
 .theme-doc-sidebar-menu .menu__link {
@@ -909,6 +910,10 @@ div:has(> .DocSearch.DocSearch-Button) {
 .theme-doc-sidebar-menu.menu__list .theme-doc-sidebar-item-link {
   display: flex;
   flex-direction: column;
+}
+
+.theme-doc-sidebar-menu.menu__list ul {
+  padding-left: 1.25rem;
 }
 
 .theme-doc-sidebar-menu.menu__list .theme-doc-sidebar-item-link .menu__link,
