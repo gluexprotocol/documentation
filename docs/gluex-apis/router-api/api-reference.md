@@ -1,19 +1,29 @@
 # GlueX Router [Beta] API Reference
-This section contains examples of request body and responses for the available API endpoints. Each endpoint is explained with its purpose, expected input, and output format.
+
+This section contains examples of request body and responses for the available API endpoints. Each endpoint is explained
+with its purpose, expected input, and output format.
 
 Server: https://router.gluex.xyz
 
 ## **1. /liquidity**
+
 **Method:** `GET`
 
 **Description:** Returns the available chains and liquidity modules supported by GlueX Router.
 
 **Response Example:**
+
 ```json
 {
   "chains": [
-    {"chainID": "base", "networkID": 8453},
-    {"chainID": "ethereum", "networkID": 1}
+    {
+      "chainID": "base",
+      "networkID": 8453
+    },
+    {
+      "chainID": "ethereum",
+      "networkID": 1
+    }
   ],
   "liquidityModules": {
     "base": ["uniswap_v2", "morpho", "balancer_v2_composable_stable_v5"],
@@ -23,14 +33,17 @@ Server: https://router.gluex.xyz
 ```
 
 ## **2. /create**
+
 **Method:** `POST`
 
 **Description:** Creates an API key for the partner to use `/price` and `/quote` endpoints.
 
 **Request Headers:**
+
 - `x-api-key: {admin_api_key}`
 
 **Request Body:**
+
 ```json
 {
   "partnerName": "GlueX",
@@ -40,6 +53,7 @@ Server: https://router.gluex.xyz
 ```
 
 **Response Example:**
+
 ```json
 {
   "statusCode": 200,
@@ -52,14 +66,17 @@ Server: https://router.gluex.xyz
 ```
 
 ## **3. /v1/price**
+
 **Method:** `POST`
 
 **Headers:**
+
 - `x-api-key: {your_api_key}`
 
 **Description:** Returns the swap price without calldata.
 
 **Request Payload Example:**
+
 ```json
 {
   "inputToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -73,6 +90,7 @@ Server: https://router.gluex.xyz
 ```
 
 **Response Example:**
+
 ```json
 {
   "statusCode": 200,
@@ -87,22 +105,24 @@ Server: https://router.gluex.xyz
     "routingFee": 612183080026374,
     "effectiveOutputAmount": 6121218617179773952,
     "minOutputAmount": 6118158007871184896,
-    "liquidityModules": [
-      "uniswap_v3"
-    ]
+    "liquidityModules": ["uniswap_v3"]
   }
 }
 ```
 
 ## **4. /v1/quote**
+
 **Method:** `POST`
 
 **Headers:**
+
 - `x-api-key: {your_api_key}`
 
-**Description:** Returns the calldata for the swap, which can be used on the router contract to process the swap on-chain.
+**Description:** Returns the calldata for the swap, which can be used on the router contract to process the swap
+on-chain.
 
 **Request Payload Example:**
+
 ```json
 {
   "inputToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -117,6 +137,7 @@ Server: https://router.gluex.xyz
 ```
 
 **Response Example:**
+
 ```json
 {
   "statusCode": 200,
@@ -131,9 +152,7 @@ Server: https://router.gluex.xyz
     "routingFee": 611985442853888,
     "effectiveOutputAmount": 6119242443101146112,
     "minOutputAmount": 6116182821879596032,
-    "liquidityModules": [
-      "fluid_dex"
-    ],
+    "liquidityModules": ["fluid_dex"],
     "router": "0x8a37EeC92DbBaDbA3C44ea9D94d1569A2bd55B80",
     "calldata": "0xb8039e98..."
   }

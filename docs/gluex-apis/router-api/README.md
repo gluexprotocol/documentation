@@ -4,10 +4,10 @@ description: Integrate GlueX Router API directly into your app.
 
 # Router API
 
-The **Gluex Router API** is designed to simplify and streamline complex blockchain interactions.
-It facilitates secure and atomic multi-step transactions, ensuring your on-chain interactions are smooth, fail-safe and
-MEV protected. With over over 100 liquidity modules across chains, GlueX Router can facilitate any type of atomic
-execution on behalf of our partners. For example,
+The **Gluex Router API** is designed to simplify and streamline complex blockchain interactions. It facilitates secure
+and atomic multi-step transactions, ensuring your on-chain interactions are smooth, fail-safe and MEV protected. With
+over over 100 liquidity modules across chains, GlueX Router can facilitate any type of atomic execution on behalf of our
+partners. For example,
 
 - Exit a position in any token to deposit into a any lending vault.
 - Remove liquidity from any liquidity pool to enter a position in any lending vault.
@@ -42,8 +42,8 @@ The GlueX Router employs a dynamic fee structure based on the transaction value 
 | 20k USD > volume > 10k USD  | 0.02%        |
 | volume > 20k USD            | 0.01%        |
 
-In addition to this tiered fee schedule, GlueX Router rewards consistent activity by reducing the routing fee for the partners
-with higher cumulative transaction volumes over 30 days
+In addition to this tiered fee schedule, GlueX Router rewards consistent activity by reducing the routing fee for the
+partners with higher cumulative transaction volumes over 30 days
 
 | **30d Value Settled**        | **Routing Fee Rate** |
 | ---------------------------- | -------------------- |
@@ -56,7 +56,8 @@ Meaning, the user for a consistent partner will always pay the lowest routing fe
 
 ## Using the API
 
-We have provided a comprehensive guide on how to use our API effectively. Whether you're integrating with our system or exploring functionalities, you'll find all the necessary details to get started quickly with examples.
+We have provided a comprehensive guide on how to use our API effectively. Whether you're integrating with our system or
+exploring functionalities, you'll find all the necessary details to get started quickly with examples.
 
 import { SwaggerDoc } from '@site/src/components/Swagger';
 
