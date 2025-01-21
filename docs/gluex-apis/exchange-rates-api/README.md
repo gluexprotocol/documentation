@@ -1,6 +1,6 @@
 # Exchange Rates API
 
-The **Gluex Exchange Rates API** provides an easy-to-use and highly scalable solution for accessing **on-chain**
+**Gluex Exchange Rates API** provides an easy-to-use and highly scalable solution for accessing on-chain
 exchange rates between any two token pairs across multiple supported blockchains. Whether you're building a DeFi
 application, wallet, trading platform, or any blockchain-powered tool, this API ensures you can retrieve real-time,
 accurate exchange rate data effortlessly.
@@ -52,10 +52,7 @@ import { SwaggerDoc } from '@site/src/components/Swagger';
   <p><strong>Example Request:</strong> <code>POST /exchange-rate</code></p>
 </details> -->
 
-### Tutorials
+<!-- ### Tutorials
 
 We offer several guides to teach you about the most important principles of the API. They will teach you step by step
-how to integrate our endpoints into your dApp:
-
-<!-- 1. [How to request all supported chains](how-to-request-all-supported-chains.md)
-2. [How to request exchange rates](how-to-request-exchange-rates.md) -->
+how to integrate our endpoints into your dApp:-->

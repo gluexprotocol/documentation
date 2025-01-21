@@ -4,11 +4,9 @@ description: Integrate GlueX Router API directly into your app.
 
 # Router API
 
-The **Gluex Router API** is a cutting-edge solution designed to simplify and streamline complex blockchain interactions.
-It facilitates secure and atomic multi-step transactions, ensuring your on-chain interactions are smooth, fail-safe and
-MEV protected. With over over 100 liquidity modules across chains, GlueX Router can facilitate any type of atomic
-execution on behalf of users. For example,
+**Gluex Router API** is a versitle self-service tool that provides optimal execution logic for any type of any type of on-chain interaction across multiple supported chains. For example,
 
+- Swap between any two arbitrary tokens
 - Exit a position in any token to deposit into a any lending vault.
 - Remove liquidity from any liquidity pool to enter a position in any lending vault.
 - Withdraw assets from any lending vault and enter a position in any token.
@@ -21,7 +19,7 @@ The main key characteristics of GlueX Router are
 - Large multi-chain availability
 - Diverse coverage of DeFi protocol (DEXs, Lending, Yield, Staking, etc.)
 - Average API request round trip of 500ms
-- MEV protection by default
+- MEV protection
 - Default slippage configuration optimized for revert minimization and value protection
 - User always receives all positive slippage
 - Dynamic routing fees
@@ -54,10 +52,13 @@ with higher cumulative transaction volumes over 30 days
 
 Meaning, a consistent user will always pay the lowest routing fee irrespective of the size of the trade.
 
-## Using the API
+### API Endpoints
 
-[coming soon]
+import { SwaggerDoc } from '@site/src/components/Swagger';
+
+<SwaggerDoc url="https://raw.githubusercontent.com/gluexprotocol/gluex-openapis/main/router-api/openapi.json" />
 
 ### Tutorials
 
-[coming soon]
+We offer several guides to teach you about the most important principles of the API. They will teach you step by step
+how to integrate our endpoints into your dApp:
