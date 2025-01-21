@@ -1,4 +1,4 @@
-# Getting Started
+# Tutorial 1: Getting Started
 
 This section provides a step-by-step guide on how to interact with the GlueX Router API, from checking available liquidity to executing an on-chain transaction. Follow these steps to integrate GlueX into your system efficiently.
 
