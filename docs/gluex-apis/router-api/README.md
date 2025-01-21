@@ -6,7 +6,6 @@ description: Seamlessly integrate the GlueX Router API into your app for efficie
 
 > **Note:** GlueX Router API is currently in beta. We welcome your feedback to help us refine every detail and ensure it meets the highest quality standards you expect from GlueX Protocol products.
 
-
 **GlueX Router API** is a powerful and flexible tool designed for developers to implement efficient on-chain interaction logic across multiple supported blockchains. Whether you’re building a DeFi application or optimizing cross-chain workflows, the API provides everything you need for seamless integration.
 
 ## Key Features
