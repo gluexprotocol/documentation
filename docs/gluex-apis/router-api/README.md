@@ -1,58 +1,55 @@
 ---
-description: Integrate GlueX Router API directly into your app.
+description: Seamlessly integrate the GlueX Router API into your app for efficient and optimized on-chain interactions.
 ---
 
-# Router API
+# GlueX Router API [BETA]
 
-**Gluex Router API** is a versitle self-service tool that provides optimal execution logic for any type of any type of on-chain interaction across multiple supported chains. For example,
+> **Note:** GlueX Router API is currently in beta. We welcome your feedback to help us refine every detail and ensure it meets the highest quality standards you expect from GlueX Protocol products.
 
-- Swap between any two arbitrary tokens
-- Exit a position in any token to deposit into a any lending vault.
-- Remove liquidity from any liquidity pool to enter a position in any lending vault.
-- Withdraw assets from any lending vault and enter a position in any token.
-- Much more...
+**GlueX Router API** is a powerful and flexible tool designed for developers to implement efficient on-chain interaction logic across multiple supported blockchains. Whether you’re building a DeFi application or optimizing cross-chain workflows, the API provides everything you need for seamless integration.
 
 ## Key Features
 
-The main key characteristics of GlueX Router are
+- **Multi-Chain Support**: Operates seamlessly across a wide range of blockchains.
+- **Comprehensive DeFi Protocol Coverage**: Supports DEXs, lending, yield farming, staking, and more.
+- **Fast Response Times**: Average round-trip time of ~500ms.
+- **Optimized Execution**: Default configurations minimize reverts and protect users from MEV.
+- **Positive Slippage Rewards**: All positive slippage is returned to the user.
+- **Dynamic Fee Structure**: Transparent, volume-based routing fees.
 
-- Large multi-chain availability
-- Diverse coverage of DeFi protocol (DEXs, Lending, Yield, Staking, etc.)
-- Average API request round trip of 500ms
-- MEV protection
-- Default slippage configuration optimized for revert minimization and value protection
-- User always receives all positive slippage
-- Dynamic routing fees
+---
 
 ## Fee Schedule
 
-Unlike other routers that retain positive slippage as the service fee, the GlueX Router returns all positive slippage
-directly to the user. During periods of high market volatility, the amount of positive slippage can be substantial. As a
-result, even if some routers appear fee-free, users may ultimately lose more value through positive slippage than they
-would by paying small routing fees.
+Unlike other routers that retain positive slippage as hidden fees, GlueX Router returns all positive slippage directly to users. During volatile markets, this can result in significant savings.
 
-The GlueX Router employs a dynamic fee structure based on the transaction value being settled
+### Transaction Fees
+GlueX Router uses a dynamic fee structure based on the transaction value:
 
 | **Intent Value Size**       | **Fee Rate** |
-| --------------------------- | ------------ |
-| > 1000 USD                  | 0.04%        |
-| 10k USD > volume > 1000 USD | 0.03%        |
-| 20k USD > volume > 10k USD  | 0.02%        |
-| > 20k USD                   | 0.01%        |
+|-----------------------------|--------------|
+| `< $1,000`                  | **0.04%**    |
+| `$1,000 - $10,000`          | **0.03%**    |
+| `$10,000 - $20,000`         | **0.02%**    |
+| `> $20,000`                 | **0.01%**    |
 
-In addition to this tiered fee schedule, GlueX Router rewards consistent activity by reducing the routing fee for users
-with higher cumulative transaction volumes over 30 days
+### Partner Discounts
+Frequent users benefit from reduced fees based on 30-day cumulative transaction volumes:
 
 | **30d Value Settled**        | **Routing Fee Rate** |
-| ---------------------------- | -------------------- |
-| > 100k USD                   | 0.04%                |
-| 200k USD > volume > 100k USD | 0.03%                |
-| 300k USD > volume > 200k USD | 0.02%                |
-| > 300k USD                   | 0.01%                |
+|------------------------------|----------------------|
+| `< $100,000`                | **0.04%**           |
+| `$100,000 - $200,000`       | **0.03%**           |
+| `$200,000 - $300,000`       | **0.02%**           |
+| `> $300,000`                | **0.01%**           |
 
-Meaning, a consistent user will always pay the lowest routing fee irrespective of the size of the trade.
+**Pro Tip:** Consistent activity ensures the lowest routing fee for all trades, regardless of size.
 
-### API Endpoints
+---
+
+## API Endpoints
+
+Comprehensive endpoint documentation is available to help you get started quickly. Each endpoint includes detailed descriptions, request/response formats, and examples.
 
 import { SwaggerDoc } from '@site/src/components/Swagger';
 
