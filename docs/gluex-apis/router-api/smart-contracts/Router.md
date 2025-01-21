@@ -1,6 +1,16 @@
-# GluexRouter
+# GluexRouter v1
 
 The `GluexRouter` smart contract provides versatile functionality for routing tokens, collecting fees, and executing on-chain interactions through a structured interface. This contract is designed for high security and usability, ensuring strict adherence to routing and slippage rules.
+
+## Deployment
+
+The `GluexRouter` contract is deployed at the following address:
+
+**Contract Address**: `0x8a37EeC92DbBaDbA3C44ea9D94d1569A2bd55B80`
+
+### Availability on Chains
+
+To check the chains where GlueX Router is available, refer to the [GluexProtocol Router API Swagger Documentation](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information about the supported chains.
 
 ---
 
