@@ -1,4 +1,5 @@
-# API Reference
+# GlueX Router API Reference
+This section contains examples of request body and responses for the available API endpoints. Each endpoint is explained with its purpose, expected input, and output format.
 
 ## **1. /liquidity**
 **Method:** `GET`
@@ -22,7 +23,7 @@
 ## **2. /create**
 **Method:** `POST`
 
-**Description:** Creates an API key for a partner to use `/price` and `/quote` endpoints.
+**Description:** Creates an API key for the partner to use `/price` and `/quote` endpoints.
 
 **Request Headers:**
 - `x-api-key: {admin_api_key}`
