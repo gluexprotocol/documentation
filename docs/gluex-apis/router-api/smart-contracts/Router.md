@@ -10,7 +10,7 @@ The `GluexRouter` contract is deployed at the following address:
 
 ### Availability on Chains
 
-To check the chains where GlueX Router is available, refer to the [GluexProtocol Router API Swagger Documentation](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information about the supported chains.
+Check the chains where GlueX Router is available [here](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information about the supported chains.
 
 ---
 
