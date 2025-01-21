@@ -1,4 +1,4 @@
-# GlueX Router API Reference
+# GlueX Router [Beta] API Reference
 This section contains examples of request body and responses for the available API endpoints. Each endpoint is explained with its purpose, expected input, and output format.
 
 Server: https://router.gluex.xyz

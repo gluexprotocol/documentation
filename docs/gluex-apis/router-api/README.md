@@ -4,7 +4,7 @@ description: Integrate GlueX Router API directly into your app.
 
 # Router API
 
-The **Gluex Router API** is a cutting-edge solution designed to simplify and streamline complex blockchain interactions.
+The **Gluex Router API** is designed to simplify and streamline complex blockchain interactions.
 It facilitates secure and atomic multi-step transactions, ensuring your on-chain interactions are smooth, fail-safe and
 MEV protected. With over over 100 liquidity modules across chains, GlueX Router can facilitate any type of atomic
 execution on behalf of our partners. For example,
@@ -56,8 +56,12 @@ Meaning, the user for a consistent partner will always pay the lowest routing fe
 
 ## Using the API
 
-[coming soon]
+We have provided a comprehensive guide on how to use our API effectively. Whether you're integrating with our system or exploring functionalities, you'll find all the necessary details to get started quickly with examples.
+
+import { SwaggerDoc } from '@site/src/components/Swagger';
+
+<SwaggerDoc url="https://raw.githubusercontent.com/gluexprotocol/gluex-openapis/main/router-api/openapi.json" />
 
 ### Tutorials
 
-[coming soon]
+Step-by-step tutorials are available to help you understand and implement our API with ease.
