@@ -15,7 +15,7 @@ Server: https://router.gluex.xyz
     {"chainID": "base", "networkID": 8453},
     {"chainID": "ethereum", "networkID": 1}
   ],
-  "liquidity_modules": {
+  "liquidityModules": {
     "base": ["uniswap_v2", "morpho", "balancer_v2_composable_stable_v5"],
     "ethereum": ["curve_main_stable_swap_plain", "aave_v3", "sushiswap"]
   }
