@@ -1,5 +1,3 @@
-# GlueX APIs
-
 Welcome to the **GlueX APIs Documentation**, your gateway to building seamless, intuitive, and user-friendly DeFi applications. GlueX APIs are designed to abstract the complexity of decentralized finance, empowering developers to create robust dApps with one-click user experiences at their core.  
 
 ## Why GlueX APIs?  
