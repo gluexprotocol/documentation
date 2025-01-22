@@ -1933,3 +1933,19 @@ ol {
 .sidebar-external-link a.menu__link div:after:hover {
   opacity: 1;
 }
+
+.swagger-ui .opblock-body .opblock-section .opblock-section .opblock-section-header h4.opblock-title {
+  position: relative;
+  width: min-content;
+}
+
+.swagger-ui .opblock-body .opblock-section .opblock-section .opblock-section-header h4.opblock-title:after {
+  background: #49cc90;
+  bottom: -15px;
+  content: '';
+  height: 4px;
+  left: 0;
+  position: absolute;
+  transform: translateX(-7px);
+  width: 104px;
+}
