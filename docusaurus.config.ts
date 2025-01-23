@@ -85,7 +85,7 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
-    image: 'img/social-card.jpg',
+    image: 'banner.jpg',
     // Search functionality : Algolia
     algolia: {
       appId: '<>',
