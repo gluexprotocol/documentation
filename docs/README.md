@@ -1,14 +1,40 @@
 ---
 id: gluex-overview
 title: Overview
+description:
+  GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize,
+  simplify and optimize your access to DeFi
+keywords:
+  [
+    GlueX,
+    GlueX Protocol,
+    GlueX Documentation,
+    DeFi,
+    decentralized finance,
+    blockchain integration,
+    liquidity providers,
+    exchange venues,
+    APIs,
+    DeFi framework,
+    onchain services,
+    offchain services,
+  ]
 sidebar_label: label-icon-overview Overview
 ---
 
 <head>
-    <!-- <meta name="description" content="description" />
-    <meta key="og_title" property="og:title" content="Overview | GlueX Protocol" />
-    <meta key="og_description" property="og:description" content="" />
-    <meta key="og_image" property="og:image" content="" /> -->
+    <!-- Open graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://docs.gluex.xyz" />
+    <meta property="og:title" content="Overview | GlueX Protocol" />
+    <meta property="og:description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz" />
+    <meta name="twitter:title" content="Overview | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # Overview
