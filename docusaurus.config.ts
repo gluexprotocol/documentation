@@ -68,6 +68,18 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'og:type', content: 'website' },
+      {
+        name: 'og:image',
+        content: 'https://docs.gluex.xyz/banner.jpg',
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        name: 'twitter:image',
+        content: 'https://docs.gluex.xyz/banner.jpg',
+      },
+    ],
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

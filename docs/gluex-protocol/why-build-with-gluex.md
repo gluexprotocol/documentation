@@ -1,3 +1,18 @@
+---
+title: Why build with GlueX Protocol
+description: Explore the advantages of building with GlueX Protocol
+keywords: [GlueX, GlueX APIs, GlueX Documentation, GlueX Protocol]
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="Why build with GlueX Protocol | GlueX Protocol" />
+    <meta property="og:description" content="Explore the advantages of building with GlueX Protocol" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Why build with GlueX Protocol | GlueX Protocol" />
+    <meta name="twitter:description" content="Explore the advantages of building with GlueX Protocol" />
+</head>
+
 # Why build with GlueX Protocol?
 
 Building with GlueX empowers developers and protocols to seamlessly integrate decentralized financial applications with

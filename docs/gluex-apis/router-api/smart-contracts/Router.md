@@ -1,6 +1,25 @@
+---
+title: GluexRouter (v1)
+description:
+  The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and
+  executing onchain interactions through a structured interface
+keywords: [GlueX, GlueX APIs, Audits, Smart Contracts, Router API]
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="Router API - GluexRouter (v1) | GlueX Protocol" />
+    <meta property="og:description" content="The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and executing onchain interactions through a structured interface" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Router API - GluexRouter (v1) | GlueX Protocol" />
+    <meta name="twitter:description" content="The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and executing onchain interactions through a structured interface" />
+</head>
+
 # GluexRouter v1
 
-The `GluexRouter` smart contract provides versatile functionality for routing tokens, collecting fees, and executing on-chain interactions through a structured interface. This contract is designed for high security and usability, ensuring strict adherence to routing and slippage rules.
+The `GluexRouter` smart contract provides versatile functionality for routing tokens, collecting fees, and executing
+on-chain interactions through a structured interface. This contract is designed for high security and usability,
+ensuring strict adherence to routing and slippage rules.
 
 ## Deployment
 
@@ -10,7 +29,9 @@ The `GluexRouter` contract is deployed at the following address:
 
 ### Availability on Chains
 
-Check the chains where GlueX Router is available [here](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information about the supported chains.
+Check the chains where GlueX Router is available
+[here](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information
+about the supported chains.
 
 ---
 

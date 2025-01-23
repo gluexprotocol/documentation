@@ -1,3 +1,20 @@
+---
+title: GlueX Protocol
+description:
+  GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators
+  and liquidity providers for deploying higg performant, universal smart order routing algorithms
+keywords: [GlueX, GlueX APIs, GlueX Documentationm, GlueX Protocol, Liquidity, Smart Order Routing]
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="GlueX Protocol | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying higg performant, universal smart order routing algorithms" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="GlueX Protocol | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying higg performant, universal smart order routing algorithms" />
+</head>
+
 # GlueX Protocol
 
 GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators, and

@@ -1,10 +1,22 @@
 ---
-description: GlueX Router API smart contract audits.
+title: Smart Contract Audits
+description: Smart contract audits for GlueX Router API
+keywords: [GlueX, GlueX APIs, Audits, Smart Contracts, Router API]
 ---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="Router API - Smart Contract Audits | GlueX Protocol" />
+    <meta property="og:description" content="Smart contract audits for GlueX Router API" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Router API - Smart Contract Audits | GlueX Protocol" />
+    <meta name="twitter:description" content="Smart contract audits for GlueX Router API" />
+</head>
 
 # Smart Contract Audits
 
-Below you can find a compilation of audits for different smart contracts that form part of GlueX's on-chain infrastructure. 
+Below you can find a compilation of audits for different smart contracts that form part of GlueX's on-chain
+infrastructure.
 
 ## GluexRouter v1
 

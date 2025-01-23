@@ -1,9 +1,36 @@
+---
+title: Exchange Rates API
+description:
+  GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates
+  between any two token pairs across multiple supported blockchains
+keywords:
+  [
+    GlueX,
+    GlueX APIs,
+    GlueX Documentation,
+    Exchange Rates API,
+    Wallets,
+    DeFi Applications,
+    Trading Platforms,
+    Blockchain Tools,
+  ]
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="Exchange Rates API | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates between any two token pairs across multiple supported blockchains" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Exchange Rates API | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates between any two token pairs across multiple supported blockchains" />
+</head>
+
 # Exchange Rates API
 
-**Gluex Exchange Rates API** provides an easy-to-use and highly scalable solution for accessing on-chain
-exchange rates between any two token pairs across multiple supported blockchains. Whether you're building a DeFi
-application, wallet, trading platform, or any blockchain-powered tool, this API ensures you can retrieve real-time,
-accurate exchange rate data effortlessly.
+**Gluex Exchange Rates API** provides an easy-to-use and highly scalable solution for accessing on-chain exchange rates
+between any two token pairs across multiple supported blockchains. Whether you're building a DeFi application, wallet,
+trading platform, or any blockchain-powered tool, this API ensures you can retrieve real-time, accurate exchange rate
+data effortlessly.
 
 ---
 
@@ -37,22 +64,3 @@ custom rate limits.&#x20;
 import { SwaggerDoc } from '@site/src/components/Swagger';
 
 <SwaggerDoc url="https://raw.githubusercontent.com/gluexprotocol/gluex-openapis/main/exchange-rates-api/openapi.json" />
-
-<!-- <iframe
-  src="https://gluexprotocol.github.io/exchange-rates-api-swagger/#/default/getChains"
-  width="100%"
-  height="800"
-  frameborder="0"
-  allowfullscreen >
-</iframe> -->
-
-<!-- <details>
-  <summary>/exchange-rate</summary>
-  <p><strong>Description:</strong> Gets exchange rates for token pairs on any of the supported chain.</p>
-  <p><strong>Example Request:</strong> <code>POST /exchange-rate</code></p>
-</details> -->
-
-<!-- ### Tutorials
-
-We offer several guides to teach you about the most important principles of the API. They will teach you step by step
-how to integrate our endpoints into your dApp:-->

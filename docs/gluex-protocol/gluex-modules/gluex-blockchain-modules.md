@@ -1,3 +1,23 @@
+---
+id: blockchain-module
+title: GlueX Modules - Blockchain Module
+description:
+  GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process
+  of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains
+  with differing architectures, consensus mechanisms and operational nuances
+keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Blockchain Module]
+sidebar_label: Blockchain Module
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="GlueX Modules - Blockchain Module | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains with differing architectures, consensus mechanisms and operational nuances" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="GlueX Modules - Blockchain Module | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains with differing architectures, consensus mechanisms and operational nuances" />
+</head>
+
 # GlueX Blockchain Modules
 
 ## What's a GlueX Blockchain Module?

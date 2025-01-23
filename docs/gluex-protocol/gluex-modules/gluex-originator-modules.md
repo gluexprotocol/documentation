@@ -1,3 +1,23 @@
+---
+id: originator-module
+title: GlueX Modules - Originator Module
+description:
+  GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to
+  fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders
+  from various settlement protocols enabling a unified, protocol agnostic approach to process orders
+keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Originator Module]
+sidebar_label: Originator Module
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="GlueX Modules - Originator Module | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders from various settlement protocols enabling a unified, protocol agnostic approach to process orders" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="GlueX Modules - Originator Module | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders from various settlement protocols enabling a unified, protocol agnostic approach to process orders" />
+</head>
+
 # GlueX Originator Modules
 
 ### What's a GlueX Originator Module?

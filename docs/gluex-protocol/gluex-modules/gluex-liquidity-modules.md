@@ -1,3 +1,22 @@
+---
+id: liquidity-module
+title: GlueX Modules - Liquidity Module
+description:
+  GlueX Intent Module is a high level abstraction that enables users to interact with various DeFi protocols for
+  swapping tokens, lending, borrowing, staking and yield optimization in a unified manner
+keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Liquidity Module]
+sidebar_label: Liquidity Module
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="GlueX Modules - Liquidity Module | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Intent Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="GlueX Modules - Liquidity Module | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Intent Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+</head>
+
 # GlueX Liquidity Modules
 
 ## What's a GlueX Liquidity Module?

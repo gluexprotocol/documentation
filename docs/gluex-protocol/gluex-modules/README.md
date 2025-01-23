@@ -1,3 +1,22 @@
+---
+title: GlueX Modules
+description:
+  Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of
+  intents, blockchains, intent originators and liquidity sources
+keywords:
+  [GlueX, GlueX APIs, GlueX Documentation, GlueX Modules, GlueX Protocol, Originator, Intent, Blockchain, Liquidity]
+sidebar_label: Modules
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="Modules | GlueX Protocol" />
+    <meta property="og:description" content="Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of intents, blockchains, intent originators and liquidity sources" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Modules | GlueX Protocol" />
+    <meta name="twitter:description" content="Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of intents, blockchains, intent originators and liquidity sources" />
+</head>
+
 # GlueX Modules
 
 At the core of GlueX is the concept of "**GlueX Modules**", which act as the essential building blocks for integrating
@@ -6,15 +25,6 @@ enables the modular integration of intents, blockchains, intent originators and 
 
 The modular design enhances GlueX's ability to integrate with diverse protocols, scale efficiently, and adapt to future
 developments. All this while simplifying the development process and improving performance considerably!
-
-<figure>
-    <img src="../../.gitbook/assets/Screenshot from 2024-11-18 10-06-45.png" alt="" />
-    <figcaption>
-        <p align="center">
-            GlueX Protocol Modules
-        </p>
-    </figcaption>
-</figure>
 
 ---
 

@@ -1,3 +1,23 @@
+---
+id: intent-module
+title: GlueX Modules - Intent Module
+description:
+  GlueX Intent Module is a high level abstractions designed to manage and execute specific user defined intents across
+  blockchains encapsulating all logic required to achieve the desired outcomes efficiently, including search space
+  generation, state management and optimization
+keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Intent Module]
+sidebar_label: Intent Module
+---
+
+<head>
+    <!-- Open graph -->
+    <meta property="og:title" content="GlueX Modules - Intent Module | GlueX Protocol" />
+    <meta property="og:description" content="GlueX Intent Module is a high level abstractions designed to manage and execute specific user defined intents across blockchains encapsulating all logic required to achieve the desired outcomes efficiently, including search space generation, state management and optimization" />
+    <!-- Twitter -->
+    <meta name="twitter:title" content="GlueX Modules - Intent Module | GlueX Protocol" />
+    <meta name="twitter:description" content="GlueX Intent Module is a high level abstractions designed to manage and execute specific user defined intents across blockchains encapsulating all logic required to achieve the desired outcomes efficiently, including search space generation, state management and optimization" />
+</head>
+
 # GlueX Intent Modules
 
 ## What's a GlueX Intent Module?
