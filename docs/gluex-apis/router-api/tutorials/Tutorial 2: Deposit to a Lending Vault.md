@@ -38,7 +38,7 @@ Moving from a regular token to a **yield-bearing asset** usually requires multip
 
 ✅ **Time efficiency** - One transaction instead of many.
 
-✅ **Cost savings** - Fewer gas fees.
+✅ **Cost savings** - Lesser gas fees.
 
 ✅ **Simplicity** - No manual interactions with multiple protocols.
 
