@@ -44,6 +44,16 @@ Moving from a regular token to a **yield-bearing asset** usually requires multip
 
 This tutorial uses **$GALA → $aETHWETH** as an example, but GlueX allows you to swap **any token to any yield-generating token** in a single transaction.
 
+## Prerequisites
+
+Before running the script, ensure you have the following installed:
+
+- Python 3.10
+- Web3 (`pip install web3`)
+- Requests (`pip install requests`)
+
+Additionally, you need access to an Ethereum-compatible blockchain node, such as an Infura or Tenderly RPC endpoint.
+
 ## **Code Implementation**
 
 ### **1. Setup and Configuration**
