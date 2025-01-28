@@ -26,7 +26,6 @@ Before running the script, ensure you have the following installed:
 - Python 3.10
 - Web3 (`pip install web3`)
 - Requests (`pip install requests`)
-- eth-abi (`pip install eth-abi`)
 
 Additionally, you need access to an Ethereum-compatible blockchain node, such as an Infura or Tenderly RPC endpoint.
 
