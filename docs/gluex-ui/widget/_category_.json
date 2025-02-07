@@ -1,6 +1,6 @@
 {
     "label": "Widget",
-    "className": "gluex-uu-widget",
+    "className": "gluex-ui-widget",
     "collapsible": false,
     "collapsed": false
 }
