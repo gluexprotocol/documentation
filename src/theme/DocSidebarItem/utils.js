@@ -51,6 +51,7 @@ const addIconsToLabel = (label, className) => {
     case 'label-gluex-apis-router':
       icons = <No_Collateral />;
       break;
+    case 'label-gluex-ownable':
     case 'label-gluex-apis-solve':
       icons = <Ownable />;
       break;
