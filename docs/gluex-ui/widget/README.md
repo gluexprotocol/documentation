@@ -30,7 +30,7 @@ that can be styled to match your application design perfectly.
 - Complete UI translations to match your customer’s preferred language
 - Compatibility tested with React, Vite, and Next.js
 
-> Contact our partnership team to discover how you can partner with us and integrate GlueX into your platform
+> Contact our [partnership team](https://discord.gg/gluex) to discover how you can partner with us and integrate GlueX into your platform.
 
 ## 📦 Install Widget
 
@@ -200,7 +200,7 @@ retrieve helpful information about executing quotes, and track swap progress (ex
 and tokens, interactions with specific UI elements and more
 
 > We are working on events and if you face any issues or are interested in a specific event, reach out to us via the
-> partnership team
+> [partnership team](https://discord.gg/gluex)
 
 To minimize unnecessary re-renders and prevent potential glitches in the main Widget component, please integrate the
 `useWidgetEvents` hook outside of the component where the main Widget is integrated
