@@ -22,7 +22,7 @@ that can be styled to match your application design perfectly.
 
 #### GlueX Widget features include:
 
-- All chains and tokens that GlueX supports
+- All chains and tokens that GlueX [supports](../supported-chains)
 - Embeddable variants: compact and wide
 - Pre configured themes and lots of customization options with dark mode support to match the look and feel of your web
   app
