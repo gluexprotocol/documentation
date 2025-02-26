@@ -8,13 +8,26 @@ keywords: [GlueX, GlueX APIs, Router API, Tutorial, Getting Started]
 sidebar_label: 1. Getting Started
 ---
 
+
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A step by step guide on how to interact with the GlueX Router API, from checking available liquidity to executing an onchain transaction" />
+    <meta name="keywords" content="GlueX, GlueX APIs, Router API, Tutorial, Getting Started" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Router API - Tutorial (Getting Started) | GlueX Protocol" />
     <meta property="og:description" content="A step by step guide on how to interact with the GlueX Router API, from checking available liquidity to executing an onchain transaction" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-getting-started" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Router API - Tutorial (Getting Started) | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-getting-started" />
     <meta name="twitter:description" content="A step by step guide on how to interact with the GlueX Router API, from checking available liquidity to executing an onchain transaction" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # Tutorial 1: Getting Started

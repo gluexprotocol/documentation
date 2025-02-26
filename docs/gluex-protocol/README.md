@@ -2,17 +2,29 @@
 title: GlueX Protocol
 description:
   GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators
-  and liquidity providers for deploying higg performant, universal smart order routing algorithms
+  and liquidity providers for deploying high performant, universal smart order routing algorithms
 keywords: [GlueX, GlueX APIs, GlueX Documentationm, GlueX Protocol, Liquidity, Smart Order Routing]
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying high performant, universal smart order routing algorithms" />
+    <meta name="keywords" content="GlueX, GlueX Protocol, GlueX APIs, GlueX Docs, GlueX Docs, DeFi, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation, gas fee management" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="GlueX Protocol | GlueX Protocol" />
-    <meta property="og:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying higg performant, universal smart order routing algorithms" />
+    <meta property="og:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying high performant, universal smart order routing algorithms" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="GlueX Protocol | GlueX Protocol" />
-    <meta name="twitter:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying higg performant, universal smart order routing algorithms" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol" />
+    <meta name="twitter:description" content="GlueX Protocol is an abstraction framework designed to uniformly represent blockchains, intents, intent originators and liquidity providers for deploying high performant, universal smart order routing algorithms" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX Protocol

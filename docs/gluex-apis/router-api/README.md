@@ -7,12 +7,24 @@ keywords: [GlueX, GlueX APIs, GlueX Documentation, GlueX Router API, Router API,
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Router API is a powerful and flexible tool designed for developers to implement efficient and optimized onchain interaction logic across multiple supported blockchains" />
+    <meta name="keywords" content="GlueX, GlueX APIs, GlueX Documentation, GlueX Router API, Router API, GlueX Router, Routing API" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Router API | GlueX Protocol" />
     <meta property="og:description" content="GlueX Router API is a powerful and flexible tool designed for developers to implement efficient and optimized onchain interaction logic across multiple supported blockchains" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/router-api/" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Router API | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/router-api/" />
     <meta name="twitter:description" content="GlueX Router API is a powerful and flexible tool designed for developers to implement efficient and optimized onchain interaction logic across multiple supported blockchains" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX Router API [BETA]

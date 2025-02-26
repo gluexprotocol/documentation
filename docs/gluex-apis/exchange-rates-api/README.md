@@ -17,12 +17,24 @@ keywords:
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates between any two token pairs across multiple supported blockchains" />
+    <meta name="keywords" content="GlueX, GlueX APIs, GlueX Documentation, Exchange Rates API, Wallets, DeFi Applications, Trading Platforms Blockchain Tools," />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Exchange Rates API | GlueX Protocol" />
     <meta property="og:description" content="GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates between any two token pairs across multiple supported blockchains" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/exchange-rates-api/" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Exchange Rates API | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/exchange-rates-api/" />
     <meta name="twitter:description" content="GlueX Exchange Rates API provides an easy to use and highly scalable solution for accessing onchain exchange rates between any two token pairs across multiple supported blockchains" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # Exchange Rates API

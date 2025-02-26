@@ -9,13 +9,26 @@ sidebar_label: Modules
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of intents, blockchains, intent originators and liquidity sources" />
+    <meta name="keywords" content="GlueX modules, modules, modules GlueX Protocol, GlueX modules, GlueX Docs, originator, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Modules | GlueX Protocol" />
     <meta property="og:description" content="Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of intents, blockchains, intent originators and liquidity sources" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Modules | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/" />
     <meta name="twitter:description" content="Explore more about GlueX Modules, the core building blocks of GlueX Protocol that enable efficient integration of intents, blockchains, intent originators and liquidity sources" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
+
 
 # GlueX Modules
 

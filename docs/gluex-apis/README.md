@@ -5,12 +5,24 @@ keywords: [GlueX, GlueX APIs, GlueX Documentation]
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The GlueX APIs suite provides a unified platform for seamless, intuitive, and user-friendly DeFi application development, simplifying cross-chain transactions and liquidity aggregation." />
+    <meta name="keywords" content="GlueX, GlueX APIs, GlueX Documentation, DeFi, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation, gas fee management" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="GlueX APIs Suite | GlueX Protocol" />
-    <meta property="og:description" content="The gateway to building seamless, intuitive and user-friendly DeFi applications" />
+    <meta property="og:description" content="The gateway to building seamless, intuitive, and user-friendly DeFi applications." />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="GlueX APIs Suite | GlueX Protocol" />
-    <meta name="twitter:description" content="The gateway to building seamless, intuitive and user-friendly DeFi applications" />
+    <meta name="twitter:description" content="The gateway to building seamless, intuitive, and user-friendly DeFi applications." />
+    <meta property="twitter:url" content="https://docs.gluex.xyz/gluex-apis" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX APIs Suite

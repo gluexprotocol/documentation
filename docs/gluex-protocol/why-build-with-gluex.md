@@ -3,15 +3,27 @@ title: Why build with GlueX Protocol
 description: Explore the advantages of building with GlueX Protocol
 keywords: [GlueX, GlueX APIs, GlueX Documentation, GlueX Protocol]
 ---
-
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore the advantages of building with GlueX Protocol" />
+    <meta name="keywords" content="Build with GlueX, why build with GlueX Protocol, GlueX building, GlueX APIs, GlueX Docs, GlueX Docs, DeFi, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation, gas fee management" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Why build with GlueX Protocol | GlueX Protocol" />
     <meta property="og:description" content="Explore the advantages of building with GlueX Protocol" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol/why-build-with-gluex" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Why build with GlueX Protocol | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol/why-build-with-gluex" />
     <meta name="twitter:description" content="Explore the advantages of building with GlueX Protocol" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
+
 
 # Why build with GlueX Protocol?
 

@@ -7,12 +7,24 @@ sidebar_label: 2. Deposit to a Lending Vault
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A step by step guide on how to deposit assets to a lending vault using the GlueX Router API" />
+    <meta name="keywords" content="GlueX, GlueX APIs, Router API, Tutorial, Deposit to a Lending Vault, Lending Vault, Deposit" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Router API - Tutorial (Deposit to a Lending Vault) | GlueX Protocol" />
     <meta property="og:description" content="A step by step guide on how to deposit assets to a lending vault using the GlueX Router API" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-deposit-to-lending-vault" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Router API - Tutorial (Deposit to a Lending Vault) | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-deposit-to-lending-vault" />
     <meta name="twitter:description" content="A step by step guide on how to deposit assets to a lending vault using the GlueX Router API" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # Tutorial 2: Deposit to a Lending Vault

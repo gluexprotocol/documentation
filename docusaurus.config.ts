@@ -69,6 +69,10 @@ const config: Config = {
 
   themeConfig: {
     metadata: [
+      {
+        name: 'keywords',
+        content: 'GlueX, GlueX Docs, GlueX Documentation, DeFi, decentralized finance, blockchain integration, liquidity providers, exchange venues, APIs, DeFi framework, onchain services, offchain services'
+      },
       { name: 'og:type', content: 'website' },
       {
         name: 'og:image',

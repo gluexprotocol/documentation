@@ -8,14 +8,28 @@ keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Liquidity Module]
 sidebar_label: Liquidity Module
 ---
 
+
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Liquidity Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <meta name="keywords" content="GlueX liquidity modules, intent modules, intent modules GlueX Protocol, GlueX intent, GlueX modules, GlueX Docs, blockchain, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="GlueX Modules - Liquidity Module | GlueX Protocol" />
-    <meta property="og:description" content="GlueX Intent Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <meta property="og:description" content="GlueX Liquidity Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/liquidity-module" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="GlueX Modules - Liquidity Module | GlueX Protocol" />
-    <meta name="twitter:description" content="GlueX Intent Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/liquidity-module" />
+    <meta name="twitter:description" content="GlueX Liquidity Module is a high level abstraction that enables users to interact with various DeFi protocols for swapping tokens, lending, borrowing, staking and yield optimization in a unified manner" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
+
 
 # GlueX Liquidity Modules
 
