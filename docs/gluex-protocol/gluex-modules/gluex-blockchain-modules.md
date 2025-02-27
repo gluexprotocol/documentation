@@ -10,12 +10,24 @@ sidebar_label: Blockchain Module
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains with differing architectures, consensus mechanisms and operational nuances" />
+    <meta name="keywords" content="GlueX blockchain modules, blockchain modules, blockchain modules GlueX Protocol, GlueX blockchain, GlueX blockchain, GlueX modules, GlueX Docs, blockchain, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="GlueX Modules - Blockchain Module | GlueX Protocol" />
     <meta property="og:description" content="GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains with differing architectures, consensus mechanisms and operational nuances" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/blockchain-module" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="GlueX Modules - Blockchain Module | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/blockchain-module" />
     <meta name="twitter:description" content="GlueX Blockchain Module consists of specialized components designed to improve the onboarding and integration process of different blockchains ensuring compatibility and reducing the complexity associated with supporting multiple chains with differing architectures, consensus mechanisms and operational nuances" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX Blockchain Modules

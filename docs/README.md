@@ -23,19 +23,27 @@ sidebar_label: label-icon-overview Overview
 ---
 
 <head>
-    <!-- Open graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://docs.gluex.xyz" />
+    <!-- Meta -->
+    <meta name="google-site-verification" content="Ks8AY-cG1AlDJQjlhNL8ABrFcRwbb9Q5CB1FmY9y664" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
+    <meta name="keywords" content="GlueX, GlueX Protocol, GlueX Documentation, DeFi, decentralized finance, blockchain integration, liquidity providers, exchange venues, APIs, DeFi framework, onchain services, offchain services" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Overview | GlueX Protocol" />
     <meta property="og:description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
     <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://docs.gluex.xyz" />
     <meta name="twitter:title" content="Overview | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz" />
     <meta name="twitter:description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
     <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
+
 
 # Overview
 

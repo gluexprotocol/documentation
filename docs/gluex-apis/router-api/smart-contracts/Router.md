@@ -7,13 +7,26 @@ keywords: [GlueX, GlueX APIs, Audits, Smart Contracts, Router API]
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and executing onchain interactions through a structured interface" />
+    <meta name="keywords" content="GlueX, GlueX APIs, Audits, Smart Contracts, Router, Router API" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Router API - GluexRouter (v1) | GlueX Protocol" />
     <meta property="og:description" content="The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and executing onchain interactions through a structured interface" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/router-api/smart-contracts/Router" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Router API - GluexRouter (v1) | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/router-api/smart-contracts/Router" />
     <meta name="twitter:description" content="The GluexRouter smart contract provides efficient and optimized functionality for routing tokens, collecting fees and executing onchain interactions through a structured interface" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
+
 
 # GluexRouter v1
 

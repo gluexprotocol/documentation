@@ -7,12 +7,24 @@ sidebar_label: 4. Swapping Native Tokens
 ---
 
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A step by step guide on how to swap native tokens using the GlueX Router API" />
+    <meta name="keywords" content="GlueX, GlueX APIs, Router API, Tutorial, Swapping Native Tokens, Swap, Native Tokens, DEX, Decentralized Exchange, Liquidity Position, Mint, Router API, GlueX Protocol" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Router API - Tutorial (Swapping Native Tokens) | GlueX Protocol" />
     <meta property="og:description" content="A step by step guide on how to swap native tokens using the GlueX Router API" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-swapping-native-tokens" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Router API - Tutorial (Swapping Native Tokens) | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-swapping-native-tokens" />
     <meta name="twitter:description" content="A step by step guide on how to swap native tokens using the GlueX Router API" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # Tutorial 4: Swapping Native Tokens

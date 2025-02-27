@@ -5,14 +5,25 @@ description:
   that can be styled to match your application design perfectly
 keywords: [Swaps, Widget]
 ---
-
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Widget is a set of prebuilt UI components that will help you integrate a secure and smooth swapping experience that can be styled to match your application design perfectly" />
+    <meta name="keywords" content="GlueX Widget, Widget, Widget GlueX Protocol, Swaps, GlueX Widget, GlueX Docs, originator, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="Widget | GlueX Protocol" />
     <meta property="og:description" content="GlueX Widget is a set of prebuilt UI components that will help you integrate a secure and smooth swapping experience that can be styled to match your application design perfectly" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-ui/widget/" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="Widget | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-ui/widget/" />
     <meta name="twitter:description" content="GlueX Widget is a set of prebuilt UI components that will help you integrate a secure and smooth swapping experience that can be styled to match your application design perfectly" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX Widget [BETA]

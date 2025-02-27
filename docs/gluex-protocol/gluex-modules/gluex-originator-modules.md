@@ -9,13 +9,26 @@ keywords: [GlueX, GlueX APIs, GlueX Modules, GlueX Originator Module]
 sidebar_label: Originator Module
 ---
 
+
 <head>
-    <!-- Open graph -->
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders from various settlement protocols enabling a unified, protocol agnostic approach to process orders" />
+    <meta name="keywords" content="GlueX originator modules, originator modules, originator modules GlueX Protocol, GlueX originator, GlueX modules, GlueX Docs, originator, Docs, Decentralized Finance, Blockchain, dApps, API suite, cross-chain, liquidity aggregation" />
+    <meta name="author" content="GlueX Protocol" />
+    <!-- Open Graph -->
     <meta property="og:title" content="GlueX Modules - Originator Module | GlueX Protocol" />
     <meta property="og:description" content="GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders from various settlement protocols enabling a unified, protocol agnostic approach to process orders" />
+    <meta property="og:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta property="og:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/originator-module" />
+    <meta property="og:type" content="website" />
     <!-- Twitter -->
     <meta name="twitter:title" content="GlueX Modules - Originator Module | GlueX Protocol" />
+    <meta name="twitter:url" content="https://docs.gluex.xyz/gluex-protocol/gluex-modules/originator-module" />
     <meta name="twitter:description" content="GlueX Originator Modules are specialized components designed to efficiently integrate with settlement protocols to fetch and manage orders and they serve as a critical link between DeFi applications, fetching and standardizing orders from various settlement protocols enabling a unified, protocol agnostic approach to process orders" />
+    <meta name="twitter:image" content="https://docs.gluex.xyz/banner.jpg" />
+    <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
 # GlueX Originator Modules
