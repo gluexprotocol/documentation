@@ -24,6 +24,7 @@ sidebar_label: label-icon-overview Overview
 
 <head>
     <!-- Meta -->
+    <meta name="google-site-verification" content="Ks8AY-cG1AlDJQjlhNL8ABrFcRwbb9Q5CB1FmY9y664" />
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="GlueX provides a unified suite of onchain and offchain services to abstract the complexities of DeFi. Standardize, simplify and optimize your access to DeFi" />
