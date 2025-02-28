@@ -44,13 +44,13 @@ developers and users alike. GlueX bridges these gaps by providing a unified suit
 
 Our suite of APIs is built to address the most pressing challenges in DeFi development:
 
-- **Router API**: Power efficient, cross-chain transactions by unifying routing, liquidity aggregation, and optimization
-  in one seamless operation.
+- **Router API**: Build advanced user flows by optimally combining multiple DeFi actions, DEXs and market makers liquidity into a single
+  transaction.
+
 - **Exchange Rates API**: Access real-time pricing and liquidity data across chains and protocols for informed
   decision-making.
+  
 - **Bridging APIs (Coming Soon)**: Simplify cross-chain asset transfers with fast, reliable bridging solutions.
-- **Composable Intents API (Coming Soon)**: Build advanced user flows by combining multiple DeFi actions into a single
-  transaction.
 
 ## Who Are GlueX APIs For?
 
