@@ -46,10 +46,8 @@ Our suite of APIs is built to address the most pressing challenges in DeFi devel
 
 - **Router API**: Build advanced user flows by optimally combining multiple DeFi actions, DEXs and market makers liquidity into a single
   transaction.
-
 - **Exchange Rates API**: Access real-time pricing and liquidity data across chains and protocols for informed
   decision-making.
-  
 - **Bridging APIs (Coming Soon)**: Simplify cross-chain asset transfers with fast, reliable bridging solutions.
 
 ## Who Are GlueX APIs For?
