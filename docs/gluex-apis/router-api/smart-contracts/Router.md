@@ -38,7 +38,7 @@ ensuring strict adherence to routing and slippage rules.
 
 The `GluexRouter` contract is deployed at the following address:
 
-**Contract Address**: `0x8a37EeC92DbBaDbA3C44ea9D94d1569A2bd55B80`
+**Contract Address**: `0x004BE7a661985c963d13C9F336E298570DfAF6D4`
 
 ### Availability on Chains
 
