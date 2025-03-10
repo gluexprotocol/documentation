@@ -27,10 +27,7 @@ keywords: [GlueX, GlueX APIs, GlueX Documentation, GlueX Router API, Router API,
     <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
-# GlueX Router API [BETA]
-
-> **Note:** GlueX Router API is currently in beta. We welcome your feedback to help us refine every detail and ensure it
-> meets the highest quality standards you expect from GlueX Protocol products.
+# GlueX Router API
 
 **GlueX Router API** is a powerful and flexible tool designed for developers to implement efficient on-chain interaction
 logic across multiple supported blockchains. Whether you’re building a DeFi application or optimizing cross-chain

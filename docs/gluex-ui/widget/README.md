@@ -1,5 +1,5 @@
 ---
-title: GlueX Widget [BETA]
+title: GlueX Widget
 description:
   GlueX Widget is a set of prebuilt UI components that will help you integrate a secure and smooth swapping experience
   that can be styled to match your application design perfectly
@@ -26,7 +26,7 @@ keywords: [Swaps, Widget]
     <meta name="twitter:card" content="https://docs.gluex.xyz/banner.jpg" />
 </head>
 
-# GlueX Widget [BETA]
+# GlueX Widget
 
 GlueX Widget is a set of prebuilt UI components that will help you integrate a secure and smooth swapping experience
 that can be styled to match your application design perfectly.
