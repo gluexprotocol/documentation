@@ -44,34 +44,74 @@ workflows, the API provides everything you need for seamless integration.
 
 ---
 
+## Additional Features
+
+### Surge Protection
+
+Surge Protection is a built-in safety mechanism designed to protect users from volatile price swings and shallow liquidity that could result in significant value loss.
+
+Imagine you're swapping 100 USDC for another token. Surge Protection checks what would happen if you tried to reverse that trade in the same block, without any other transactions in between. If the system estimates that you'd only get back, say, 84 USDC, it considers that a potential red flag.
+
+Rather than letting the trade go through and leaving you with a surprise loss, Surge Protection intervenes. It halts the transaction and alerts you that the trade would lead to a direct loss in the input token’s value.
+
+This isn't just another feature—it's a new class of trade safety. By simulating the reverse of your trade before execution, it evaluates:
+* Liquidity depth
+* Price impact
+* Volatility risk
+
+If the projected loss exceeds 10%, the trade is blocked.
+
+Why it matters:
+* No more entering a trade and immediately regretting it.
+* No more being the exit liquidity in a volatile or low-depth pool.
+* Surge Protection gives users peace of mind with pre-trade risk visibility.
+
+Note: Surge Protection is enabled by default.
+If you understand the risks and still want to proceed with the trade, you can explicitly disable it by setting `"surgeProtection": false` in your API request payload.
+
+### Partial Fill Order
+
+In volatile or low-liquidity market conditions, executing a full trade might not be optimal—or even possible—without incurring high slippage. That’s where Partial Fill Orders come in.
+
+When you enable partial fills by setting "isPartialFill": true, the GlueX Router will dynamically determine the optimal amount of your input token to use for the swap. It calculates the most efficient route and returns both:
+* The partial input amount that should be filled.
+* The expected output amount based on that partial fill.
+
+This gives you the best possible execution, even when the full amount can't be traded effectively in one go.
+
+Use case example:
+Say you want to swap 1000 USDC, but due to shallow liquidity or aggressive slippage, only 730 USDC can be swapped optimally.
+With partial fills enabled, the router will suggest using just 730 USDC and return the expected output for that amount—ensuring you get a better trade rather than forcing through a poor one.
+
+Why use Partial Fills?
+* Prevents large orders from being hit with high price impact.
+* Dynamically adapts to current market conditions.
+* Enables smarter routing with minimal manual tuning.
+
+Note: Partial fill logic is opt-in.
+To enable it, set `"isPartialFill": true` in your payload.
+If left unset or set to false, the router will attempt to fill the entire input amount.
+
+### Buy Order
+
+In a Sell Order, the user specifies the input amount, and the router calculates the best possible output amount.
+
+Buy Orders work in reverse: the user specifies the output amount they want to receive, and the router calculates the required input amount to fulfill the trade.
+
+To use a Buy Order, set the `orderType` field in the payload to `"BUY"` and include the desired `outputAmount`.
+
+If orderType is not provided, the router defaults to a Sell Order, and `inputAmount` must be included.
+
+| `orderType` | **Required Field** | **Description**                       |
+|-------------|--------------------|---------------------------------------|
+| `BUY`       | `outputAmount`     | Amount of the output token to receive |
+| `SELL`      | `inputAmount`      | Amount of the input token to sell     |
+
+---
+
 ## Fee Schedule
 
-Unlike other routers that retain positive slippage as hidden fees, GlueX Router returns all positive slippage directly
-to users. During volatile markets, this can result in significant savings.
-
-### Transaction Fees
-
-GlueX Router uses a dynamic fee structure based on the transaction value:
-
-| **Intent Value Size** | **Fee Rate** |
-| --------------------- | ------------ |
-| `< $1,000`            | **0.04%**    |
-| `$1,000 - $10,000`    | **0.03%**    |
-| `$10,000 - $20,000`   | **0.02%**    |
-| `> $20,000`           | **0.01%**    |
-
-### Partner Discounts
-
-Frequent users benefit from reduced fees based on 30-day cumulative transaction volumes:
-
-| **30d Value Settled** | **Routing Fee Rate** |
-| --------------------- | -------------------- |
-| `< $100,000`          | **0.04%**            |
-| `$100,000 - $200,000` | **0.03%**            |
-| `$200,000 - $300,000` | **0.02%**            |
-| `> $300,000`          | **0.01%**            |
-
-**Pro Tip:** Consistent activity ensures the lowest routing fee for all trades, regardless of size.
+Unlike other routers that retain positive slippage as hidden fees or charge additional fee on transactions, GlueX Router returns all positive slippage directly to users and there are no hidden charges. During volatile markets, this can result in significant savings.
 
 ---
 
@@ -88,3 +128,9 @@ import { SwaggerDoc } from '@site/src/components/Swagger';
 
 We offer several guides to teach you about the most important principles of the API. They will teach you step by step
 how to integrate our endpoints into your dApp:
+
+1. [Getting Started](https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-getting-started)
+2. [Deposit to a Lending Vault](https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-deposit-to-lending-vault)
+3. [Mint Liquidity Position in a DEX](https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-mint-liquidity-position-in-dex)
+4. [Swapping Native Tokens](https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-swapping-native-tokens)
+5. [Using Permit2](https://docs.gluex.xyz/gluex-apis/router-api/tutorials/router-api-tutorial-using-permit2)

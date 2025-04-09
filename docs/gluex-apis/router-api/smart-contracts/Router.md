@@ -38,12 +38,12 @@ ensuring strict adherence to routing and slippage rules.
 
 The `GluexRouter` contract is deployed at the following address:
 
-**Contract Address**: `0x004BE7a661985c963d13C9F336E298570DfAF6D4`
+**Contract Address**: `0x6Ec7612828B776cC746fe0Ee5381CC93878844f7`
 
 ### Availability on Chains
 
-Check the chains where GlueX Router is available
-[here](https://gluexprotocol.github.io/router-api-swagger/#/default/get_liquidity). This provides up-to-date information
+Check the chains where GlueX Router is currently available
+[here](https://router.gluex.xyz/liquidity). This provides up-to-date information
 about the supported chains.
 
 ---
@@ -87,28 +87,6 @@ function swap(
 
 ---
 
-### `collectFees`
-
-Collects routing fees from specified tokens and transfers them to the receiver.
-
-#### Function Signature
-
-```solidity
-function collectFees(IERC20[] memory feeTokens, address payable receiver) external onlyTreasury;
-```
-
-#### Parameters
-
-- `feeTokens` (IERC20[] memory): An array of ERC20 tokens from which fees will be collected.
-- `receiver` (address payable): The address where collected fees will be transferred.
-
-#### Reverts
-
-- `OnlyGlueTreasury`: If the caller is not the Glue treasury.
-- `ZeroAddress`: If the `receiver` address is zero.
-
----
-
 ## Events
 
 ### `Routed`
@@ -118,8 +96,10 @@ Emitted when a routing operation is completed.
 #### Event Signature
 
 ```solidity
- event Routed(
-    bytes indexed unique_pid,
+event Routed(
+    bytes indexed uniquePID,
+    address indexed userAddress,
+    address outputReceiver,
     IERC20 inputToken,
     uint256 inputAmount,
     IERC20 outputToken,
@@ -132,7 +112,9 @@ Emitted when a routing operation is completed.
 
 #### Parameters
 
-- `unique_pid` (bytes): The unique identifier for the partner.
+- `uniquePID` (bytes): The unique identifier for the partner.
+- `userAddress` (address): The address of the user who initiated the route.
+- `outputReceiver` (address): The address of the receiver of the output token.
 - `inputToken` (IERC20): The ERC20 token used as input.
 - `inputAmount` (uint256): The amount of input token used for routing.
 - `outputToken` (IERC20): The ERC20 token received as output.
