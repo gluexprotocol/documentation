@@ -98,9 +98,9 @@ In a Sell Order, the user specifies the input amount, and the router calculates 
 
 Buy Orders work in reverse: the user specifies the output amount they want to receive, and the router calculates the required input amount to fulfill the trade.
 
-To use a Buy Order, set the `orderType` field in the payload to `"BUY"` and include the desired `outputAmount`.
+To use a Buy Order, set the `"orderType"` field in the payload to `"BUY"` and include the desired `"outputAmount"`.
 
-If orderType is not provided, the router defaults to a Sell Order, and `inputAmount` must be included.
+If orderType is not provided, the router defaults to a Sell Order, and `"inputAmount"` must be included.
 
 | `orderType` | **Required Field** | **Description**                       |
 |-------------|--------------------|---------------------------------------|
