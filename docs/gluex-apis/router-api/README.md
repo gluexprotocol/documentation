@@ -207,7 +207,7 @@ These fields appear in both `/price` and `/quote` responses:
 | `calldata`         | string  | ABI-encoded transaction data              |
 | `revert`           | boolean | Would the transaction revert?             |
 | `computationUnits` | integer | Estimated gas cost                        |
-| `lowBalance`       | boolean | True if balance or allowance insufficient |
+| `lowBalance`       | boolean | True if balance is insufficient           |
 | `blockNumber`      | integer | Block number used for simulation          |
 | `simulation`       | object  | Raw trace/debug object (advanced use)     |
 
