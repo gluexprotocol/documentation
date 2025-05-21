@@ -122,8 +122,8 @@ GlueX offers flexible rate limits to meet different project needs:
 | Tier         | Requests per Second (RPS) | Burst Capacity | Description                                    |
 | ------------ | ------------------------- | -------------- | ---------------------------------------------- |
 | Basic        | 3                         | 3              | For small apps, testing, or prototypes         |
-| Premium      | 10                        | 30             | Suitable for mid-size DApps or production use  |
-| Premium Plus | 20                        | 50             | Supports high-frequency trading or aggregators |
+| Growth       | 10                        | 30             | Suitable for mid-size DApps or production use  |
+| Premium      | 20                        | 50             | Supports high-frequency trading or aggregators |
 | Enterprise   | Custom                    | Custom         | Tailored SLAs, support, and throughput limits  |
 
 ---
