@@ -1,7 +1,7 @@
 {
-    "label": "Tutorials",
+    "label": "Fees",
     "className": "label-gluex-apis-router",
     "collapsible": true,
     "collapsed": true,
-    "position": 2
+    "position": 3
 }
