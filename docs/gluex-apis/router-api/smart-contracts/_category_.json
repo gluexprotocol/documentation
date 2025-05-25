@@ -2,5 +2,6 @@
     "label": "Contracts",
     "className": "label-gluex-apis-router",
     "collapsible": true,
-    "collapsed": true
+    "collapsed": true,
+    "position": 1
 }
