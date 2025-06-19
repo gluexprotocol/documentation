@@ -169,6 +169,8 @@ Returns a **price quote + calldata** for executing the trade on-chain. Includes 
 | `isPermit2`       | boolean        | Optional    | Enable Permit2 for allowances                  |
 | `slippage`        | string/integer | Optional    | Max slippage (in basis points)                 |
 | `partnerFee`      | string/integer | Optional    | Fee in bps applied to `outputAmount`           |
+| `partnerAddress`  | string         | Conditional | Partner EOA to collect `partnerFee`            |
+| `modulesFilter`   | list           | Optional    | Filter the liquidity modules in the solution   |
 
 ## 📤 Common Response Fields
 
