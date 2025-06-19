@@ -164,7 +164,7 @@ Returns a **price quote + calldata** for executing the trade on-chain. Includes 
 | `uniquePID`       | string         | ✅           | Partner ID for tracking                        |
 | `computeEstimate` | boolean        | Optional    | Enable simulation (default: true for `/quote`) |
 | `computeStable`   | boolean        | Optional    | Include USD values in response                 |
-| `surgeProtection` | boolean        | Optional    | Enable trade safety (default: true)            |
+| `surgeProtection` | boolean        | Optional    | Enable trade safety (default: false)            |
 | `isPartialFill`   | boolean        | Optional    | Allow partial swaps (default: false)           |
 | `isPermit2`       | boolean        | Optional    | Enable Permit2 for allowances                  |
 | `slippage`        | string/integer | Optional    | Max slippage (in basis points)                 |
