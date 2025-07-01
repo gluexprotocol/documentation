@@ -33,6 +33,12 @@ keywords: [GlueX, GlueX APIs, GlueX Documentation, GlueX Router API, Router API,
 logic across multiple supported blockchains. Whether you’re building a DeFi application or optimizing cross-chain
 workflows, the API provides everything you need for seamless integration.
 
+## 🌐 API Base URL
+
+https://router-api.gluex.xyz
+
+All endpoint paths in this document are relative to the base URL above.
+
 ## 🚀 Key Features
 
 - **Multi-Chain Support**: Operates seamlessly across a wide range of blockchains.
@@ -162,7 +168,7 @@ Returns a **price quote + calldata** for executing the trade on-chain. Includes 
 | `userAddress`     | string         | ✅           | Address initiating the swap                    |
 | `outputReceiver`  | string         | ✅           | Address receiving the output                   |
 | `uniquePID`       | string         | ✅           | Partner ID for tracking                        |
-| `computeEstimate` | boolean        | Optional    | Enable simulation (default: true for `/quote`) |
+| `computeEstimate` | boolean        | Optional    | Enable simulation (default: true for `quote`) |
 | `computeStable`   | boolean        | Optional    | Include USD values in response                 |
 | `surgeProtection` | boolean        | Optional    | Enable trade safety (default: false)            |
 | `isPartialFill`   | boolean        | Optional    | Allow partial swaps (default: false)           |
@@ -174,7 +180,7 @@ Returns a **price quote + calldata** for executing the trade on-chain. Includes 
 
 ## 📤 Common Response Fields
 
-These fields appear in both `/price` and `/quote` responses:
+These fields appear in both `price` and `quote` responses:
 
 | Field                   | Type    | Description                           |
 | ----------------------- | ------- | ------------------------------------- |
@@ -196,13 +202,13 @@ These fields appear in both `/price` and `/quote` responses:
 
 ## 🔧 Endpoint-Specific Fields
 
-### `/price` Only
+### `price` Only
 
 | Field        | Type    | Description                   |
 | ------------ | ------- | ----------------------------- |
 | `surgeValue` | integer | Estimated reverse loss (in %) |
 
-### `/quote` Only
+### `quote` Only
 
 | Field              | Type    | Description                               |
 | ------------------ | ------- | ----------------------------------------- |
