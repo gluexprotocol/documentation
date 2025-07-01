@@ -1,4 +1,4 @@
-# GlueX Yield API
+# Yield API
 
 | title | description | keywords |
 |-------|-------------|----------|
