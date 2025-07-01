@@ -139,7 +139,7 @@ GlueX offers flexible rate limits to meet different project needs:
 Comprehensive endpoint documentation is available to help you get started quickly. Each endpoint includes detailed
 descriptions, request/response formats, and examples.
 
-### `POST /price`
+### `POST /v1/price`
 
 Returns a **price estimate** for a swap. Does **not** include calldata or simulation metadata.
 
@@ -147,7 +147,7 @@ Returns a **price estimate** for a swap. Does **not** include calldata or simula
 * Partial Fills supported
 * Returns all *Common Response Fields*
 
-### `POST /quote`
+### `POST /v1/quote`
 
 Returns a **price quote + calldata** for executing the trade on-chain. Includes simulation data.
 

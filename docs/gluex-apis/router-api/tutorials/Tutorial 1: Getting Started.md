@@ -48,17 +48,17 @@ You can check the latest available chains and liquidity modules here:
 
 Now that you understand GlueX Router, the next step is getting started. This is straightforward—partners must create an
 API key to access liquidity. Call `/create` with your details to obtain an API key. This key is required for accessing
-`/price` and `/quote` endpoints.
+`/v1/price` and `/v1/quote` endpoints.
 
 ### **3. Fetch Swap Pricing**
 
-Before generating calldata for a swap, it is useful to estimate the expected swap values. Call `/price` with details of
+Before generating calldata for a swap, it is useful to estimate the expected swap values. Call `/v1/price` with details of
 the tokens to swap, the user’s address, and the desired chain. The response will provide the estimated output amount,
 routing fees, and liquidity sources.
 
 ### **4. Get Calldata for On-Chain Execution**
 
-Once you're ready to execute a swap, call `/quote` to obtain the **router contract address** and the required
+Once you're ready to execute a swap, call `/v1/quote` to obtain the **router contract address** and the required
 **calldata**. This calldata represents the exact execution path for your swap and must be submitted on-chain through the
 router contract.
 
@@ -69,4 +69,4 @@ amount. This ensures the transaction can be processed seamlessly.
 
 ### **6. Execute the Swap On-Chain**
 
-Finally, use the calldata retrieved from the `/quote` endpoint on the router contract to submit a transaction on-chain.
+Finally, use the calldata retrieved from the `/v1/quote` endpoint on the router contract to submit a transaction on-chain.
