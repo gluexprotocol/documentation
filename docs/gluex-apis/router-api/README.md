@@ -35,7 +35,7 @@ workflows, the API provides everything you need for seamless integration.
 
 ## 🌐 API Base URL
 
-https://router-api.gluex.xyz
+https://router.gluex.xyz
 
 All endpoint paths in this document are relative to the base URL above.
 
