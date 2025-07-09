@@ -156,27 +156,29 @@ Returns a **price quote + calldata** for executing the trade on-chain. Includes 
 
 ## 🔍 Query Parameters
 
-| Name              | Type           | Required    | Description                                    |
-| ----------------- | -------------- | ----------- | ---------------------------------------------- |
-| `chainID`         | string         | Conditional | Human-readable chain name (`ethereum`)         |
-| `networkID`       | string/integer | Conditional | Numeric chain ID (`1` = Ethereum)              |
-| `inputToken`      | string         | ✅           | ERC-20 address of token to sell                |
-| `outputToken`     | string         | ✅           | ERC-20 address of token to buy                 |
-| `inputAmount`     | string/integer | Conditional | Amount of `inputToken` (with `SELL`)           |
-| `outputAmount`    | string/integer | Conditional | Amount of `outputToken` (with `BUY`)           |
-| `orderType`       | string         | Conditional | `"SELL"` or `"BUY"`                            |
-| `userAddress`     | string         | ✅           | Address initiating the swap                    |
-| `outputReceiver`  | string         | ✅           | Address receiving the output                   |
-| `uniquePID`       | string         | ✅           | Partner ID for tracking                        |
-| `computeEstimate` | boolean        | Optional    | Enable simulation (default: true for `quote`) |
-| `computeStable`   | boolean        | Optional    | Include USD values in response                 |
-| `surgeProtection` | boolean        | Optional    | Enable trade safety (default: false)            |
-| `isPartialFill`   | boolean        | Optional    | Allow partial swaps (default: false)           |
-| `isPermit2`       | boolean        | Optional    | Enable Permit2 for allowances                  |
-| `slippage`        | string/integer | Optional    | Max slippage (in basis points)                 |
-| `partnerFee`      | string/integer | Optional    | Fee in bps applied to `outputAmount`           |
-| `partnerAddress`  | string         | Conditional | Partner EOA to collect `partnerFee`            |
-| `modulesFilter`   | list           | Optional    | Filter the liquidity modules in the solution   |
+| Name                   | Type           | Required    | Description                                    |
+| ---------------------- | -------------- | ----------- | ---------------------------------------------- |
+| `chainID`              | string         | Conditional | Human-readable chain name (`ethereum`)         |
+| `networkID`            | string/integer | Conditional | Numeric chain ID (`1` = Ethereum)              |
+| `inputToken`           | string         | ✅           | ERC-20 address of token to sell                |
+| `outputToken`          | string         | ✅           | ERC-20 address of token to buy                 |
+| `inputAmount`          | string/integer | Conditional | Amount of `inputToken` (with `SELL`)           |
+| `outputAmount`         | string/integer | Conditional | Amount of `outputToken` (with `BUY`)           |
+| `orderType`            | string         | Conditional | `"SELL"` or `"BUY"`                            |
+| `userAddress`          | string         | ✅           | Address initiating the swap                    |
+| `outputReceiver`       | string         | ✅           | Address receiving the output                   |
+| `uniquePID`            | string         | ✅           | Partner ID for tracking                        |
+| `computeEstimate`      | boolean        | Optional    | Enable simulation (default: true for `quote`) |
+| `computeStable`        | boolean        | Optional    | Include USD values in response                 |
+| `surgeProtection`      | boolean        | Optional    | Enable trade safety (default: false)           |
+| `isPartialFill`        | boolean        | Optional    | Allow partial swaps (default: false)           |
+| `isPermit2`            | boolean        | Optional    | Enable Permit2 for allowances                  |
+| `slippage`             | string/integer | Optional    | Max slippage (in basis points)                 |
+| `partnerFee`           | string/integer | Optional    | Fee in bps applied to `outputAmount`           |
+| `partnerAddress`       | string         | Conditional | Partner EOA to collect `partnerFee` and surplus|
+| `modulesFilter`        | list           | Optional    | Filter the liquidity modules in the solution   |
+| `activateSurplusFee`   | boolean        | Optional    | Activates the surplus sharing contract.        |
+
 
 ## 📤 Common Response Fields
 

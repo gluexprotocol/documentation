@@ -29,7 +29,6 @@ keywords: [GlueX, GlueX APIs, Fees, Router API]
 
 > The GlueX Router API is designed to provide users with the best possible routing experience, ensuring optimal swap execution at zero costs.
 
-
 ## Revenue for Partners
 
 While the Router itself does not charge any fees, integrators can implement their own fees on their frontend.
@@ -38,5 +37,9 @@ While the Router itself does not charge any fees, integrators can implement thei
 
 We offer a partner fee model that allows integrators to generate revenue from swaps executed via the GlueX Router API. The implementation is straightforward and can be customized based on your needs.
 
-> To learn more about our partner fee model and how to get started, please reach out to our team through our [Telegram](https://t.me/+_VmO_gIrNjxiZWE0) channel.
+### Surplus and Positive Slippage Sharing Model
+
+In DeFi routing, surplus is the measurable value unlocked when a transaction executes at a better rate than expected or benchmarked. Different platforms define and utilize surplus in distinct ways, often depending on their routing logic and incentive model. We define surplus as the extra value captured when GlueX outperforms all other routers on the same chain at the time of the quote. When a surplus is detected, it is split among user, integrator and GlueX.
+
+> To learn more about our revenue for partners and how to get started, please reach out to our team through our [Telegram](https://t.me/+_VmO_gIrNjxiZWE0) channel.
 

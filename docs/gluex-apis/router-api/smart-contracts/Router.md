@@ -38,7 +38,7 @@ ensuring strict adherence to routing and slippage rules.
 
 The `GluexRouter` contract is deployed at the following address:
 
-**Contract Address**: `0x6Ec7612828B776cC746fe0Ee5381CC93878844f7`
+**Contract Address**: `0xaF6Dd700b655D100e56201b92B29BD7A9E406CEB`
 
 ### Availability on Chains
 
@@ -50,63 +50,58 @@ about the supported chains.
 
 ## Functions
 
-### `swap`
+## `swap`
 
-Executes a token routing operation using a specified executor and interaction data.
+Executes a token routing operation through an external `IExecutor` contract using a predefined set of interactions.
 
-#### Function Signature
+### Parameters
 
-```solidity
-function swap(
-    IExecutor executor,
-    RouteDescription calldata desc,
-    Interaction[] calldata interactions,
-    uint256 deadline
-) external payable returns (uint256 finalOutputAmount);
-```
+- `executor` (`IExecutor`): The executor contract responsible for processing interactions.
+- `desc` (`RouteDescription calldata`): A structured object containing input/output token information, fees, limits, and recipient addresses.
+- `interactions` (`Interaction[] calldata`): An array of interaction steps to be executed by the executor.
 
-#### Parameters
+### Returns
 
-- `executor` (IExecutor): The executor contract performing the interactions.
-- `desc` (RouteDescription calldata): The route description containing input, output, and fee details.
-- `interactions` (Interaction[] calldata): The interactions encoded for execution by the executor.
-- `deadline` (uint256): The timestamp after which the transaction will revert.
-
-#### Returns
-
-- `finalOutputAmount` (uint256): The final amount of output token received.
-
-#### Reverts
-
-- `Deadline passed`: If the block timestamp exceeds the `deadline`.
-- `Routing fee too high`: If `desc.routingFee` exceeds `_MAX_FEE`.
-- `Routing fee too low`: If `desc.routingFee` is below `_MIN_FEE`.
-- `Negative slippage limit`: If `desc.minOutputAmount` is less than or equal to zero.
-- `Slippage limit too large`: If `desc.minOutputAmount` exceeds `desc.outputAmount`.
-- Other validations related to input/output tokens and fees.
+- `finalOutputAmount` (`uint256`): The final amount of output token received by the `outputReceiver` after fees and surplus/slippage sharing.
 
 ---
 
-## Events
+### Reverts
 
-### `Routed`
+- `InvalidNativeTokenInputAmount`: If the ETH value sent does not match the expected input amount.
+- `RoutingFeeTooHigh`: If `desc.routingFee` exceeds the maximum allowed fee (`_MAX_FEE`).
+- `RoutingFeeTooLow`: If `desc.routingFee` is below the minimum required fee (`_MIN_FEE`).
+- `PartnerSurplusShareTooHigh`: If `desc.partnerSurplusShare` exceeds `_MAX_PARTNER_SURPLUS_SHARE_LIMIT`.
+- `ProtocolSurplusShareTooLow`: If `desc.protocolSurplusShare` is below `_MIN_PROTOCOL_SURPLUS_SHARE_LIMIT`.
+- `PartnerSlippageShareTooHigh`: If `desc.partnerSlippageShare` exceeds `_MAX_PARTNER_SLIPPAGE_SHARE_LIMIT`.
+- `ProtocolSlippageShareTooLow`: If `desc.protocolSlippageShare` is below `_MIN_PROTOCOL_SLIPPAGE_SHARE_LIMIT`.
+- `ZeroAddress`: If any required address (e.g. `inputReceiver`, `outputReceiver`) is a zero address.
+- `InvalidSlippage`: If `desc.minOutputAmount` is zero.
+- `SlippageLimitTooLarge`: If `desc.minOutputAmount` exceeds `desc.outputAmount`.
+- `InsufficientBalance`: If the router does not hold sufficient balance for the intended transfer.
+- `NativeTransferFailed`: If the native token transfer fails.
 
-Emitted when a routing operation is completed.
+---
 
-#### Event Signature
+## Event: `Routed`
+
+Emitted upon successful completion of a routing operation.
+
+### Event Signature
 
 ```solidity
 event Routed(
-    bytes indexed uniquePID,
+    bytes32 indexed uniquePID,
     address indexed userAddress,
     address outputReceiver,
     IERC20 inputToken,
     uint256 inputAmount,
     IERC20 outputToken,
-    uint256 outputAmount,
+    uint256 finalOutputAmount,
     uint256 partnerFee,
     uint256 routingFee,
-    uint256 finalOutputAmount
+    uint256 partnerShare,
+    uint256 protocolShare
 );
 ```
 
@@ -118,9 +113,10 @@ event Routed(
 - `inputToken` (IERC20): The ERC20 token used as input.
 - `inputAmount` (uint256): The amount of input token used for routing.
 - `outputToken` (IERC20): The ERC20 token received as output.
-- `outputAmount` (uint256): The expected output amount from the route.
+- `finalOutputAmount` (uint256): The actual output amount received after routing.
 - `partnerFee` (uint256): The fee charged for the partner.
 - `routingFee` (uint256): The fee charged for the routing operation.
-- `finalOutputAmount` (uint256): The actual output amount received after routing.
+- `partnerShare` (uint256): The share of surplus/slippage allocated to the partner.
+- `protocolShare` (uint256): The share of surplus/slippage allocated to the protocol.
 
 ---
