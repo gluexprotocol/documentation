@@ -41,5 +41,15 @@ We offer a partner fee model that allows integrators to generate revenue from sw
 
 In DeFi routing, surplus is the measurable value unlocked when a transaction executes at a better rate than expected or benchmarked. Different platforms define and utilize surplus in distinct ways, often depending on their routing logic and incentive model. We define surplus as the extra value captured when GlueX outperforms all other routers on the same chain at the time of the quote. When a surplus is detected, it is split among user, integrator and GlueX.
 
+When a surplus is detected, it is split among key participants in the ecosystem as below:
+
+| Recipient  | Share of Surplus |
+|-------------|------------------|
+| User        | ≤ 33 %           |
+| Integrator  | ≤ 33 %           |
+| GlueX       | ≤ 33 %           |
+
+Note: The surplus is capped at 5% on the total volume when GlueX outperforms the benchmark by more than 5%.
+
 > To learn more about our revenue for partners and how to get started, please reach out to our team through our [Telegram](https://t.me/+_VmO_gIrNjxiZWE0) channel.
 
